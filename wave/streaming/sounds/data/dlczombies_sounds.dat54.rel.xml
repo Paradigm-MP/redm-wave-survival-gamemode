@@ -1,0 +1,801 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dat54>
+    <Version value="7314721" />
+    <NameTable>
+        <Item>dlc_zombies\zombies</Item>
+    </NameTable>
+    <Items>
+        <Item type="SoundSet">
+            <Name>dlc_zombies_sounds_teddybear</Name>
+            <Header>
+                <Flags value="0xAAAAAAAA" />
+            </Header>
+            <Items>
+                <Item>
+                    <ScriptName>zombies_teddybear</ScriptName>
+                    <SoundName>dlc_zombies_teddybear_mt</SoundName>
+                </Item>
+            </Items>
+        </Item>
+
+        <Item type="SoundSet">
+            <Name>dlc_zombies_pack_a_punch</Name>
+            <Header>
+                <Flags value="0xAAAAAAAA" />
+            </Header>
+            <Items>
+                <Item>
+                    <ScriptName>zombies_pack_a_punch</ScriptName>
+                    <SoundName>dlc_zombies_pack_a_punch_mt</SoundName>
+                </Item>
+            </Items>
+        </Item>
+
+        <Item type="SoundSet">
+            <Name>dlc_zombies_mysterybox</Name>
+            <Header>
+                <Flags value="0xAAAAAAAA" />
+            </Header>
+            <Items>
+                <Item>
+                    <ScriptName>zombies_mysterybox</ScriptName>
+                    <SoundName>dlc_zombies_mysterybox_mt</SoundName>
+                </Item>
+            </Items>
+        </Item>
+
+        <Item type="SoundSet">
+            <Name>dlc_zombies_sounds1</Name>
+            <Header>
+                <Flags value="0xAAAAAAAA" />
+            </Header>
+            <Items>
+                <Item>
+                    <ScriptName>zombies_zombie1</ScriptName>
+                    <SoundName>dlc_zombies_zombie1_mt</SoundName>
+                </Item>
+            </Items>
+        </Item>
+
+        <Item type="SoundSet">
+            <Name>dlc_zombies_sounds2</Name>
+            <Header>
+                <Flags value="0xAAAAAAAA" />
+            </Header>
+            <Items>
+                <Item>
+                    <ScriptName>zombies_zombie2</ScriptName>
+                    <SoundName>dlc_zombies_zombie2_mt</SoundName>
+                </Item>
+            </Items>
+        </Item>
+
+        <Item type="SoundSet">
+            <Name>dlc_zombies_sounds3</Name>
+            <Header>
+                <Flags value="0xAAAAAAAA" />
+            </Header>
+            <Items>
+                <Item>
+                    <ScriptName>zombies_zombie3</ScriptName>
+                    <SoundName>dlc_zombies_zombie3_mt</SoundName>
+                </Item>
+            </Items>
+        </Item>
+
+        <Item type="SoundSet">
+            <Name>dlc_zombies_sounds4</Name>
+            <Header>
+                <Flags value="0xAAAAAAAA" />
+            </Header>
+            <Items>
+                <Item>
+                    <ScriptName>zombies_zombie4</ScriptName>
+                    <SoundName>dlc_zombies_zombie4_mt</SoundName>
+                </Item>
+            </Items>
+        </Item>
+
+        <Item type="SoundSet">
+            <Name>dlc_zombies_sounds5</Name>
+            <Header>
+                <Flags value="0xAAAAAAAA" />
+            </Header>
+            <Items>
+                <Item>
+                    <ScriptName>zombies_zombie5</ScriptName>
+                    <SoundName>dlc_zombies_zombie5_mt</SoundName>
+                </Item>
+            </Items>
+        </Item>
+
+        <Item type="SoundSet">
+            <Name>dlc_zombies_sounds6</Name>
+            <Header>
+                <Flags value="0xAAAAAAAA" />
+            </Header>
+            <Items>
+                <Item>
+                    <ScriptName>zombies_zombie6</ScriptName>
+                    <SoundName>dlc_zombies_zombie6_mt</SoundName>
+                </Item>
+            </Items>
+        </Item>
+
+        <Item type="SoundSet">
+            <Name>dlc_zombies_sounds7</Name>
+            <Header>
+                <Flags value="0xAAAAAAAA" />
+            </Header>
+            <Items>
+                <Item>
+                    <ScriptName>zombies_zombie7</ScriptName>
+                    <SoundName>dlc_zombies_zombie7_mt</SoundName>
+                </Item>
+            </Items>
+        </Item>
+
+        <Item type="SoundSet">
+            <Name>dlc_zombies_sounds8</Name>
+            <Header>
+                <Flags value="0xAAAAAAAA" />
+            </Header>
+            <Items>
+                <Item>
+                    <ScriptName>zombies_zombie8</ScriptName>
+                    <SoundName>dlc_zombies_zombie8_mt</SoundName>
+                </Item>
+            </Items>
+        </Item>
+
+        <Item type="SoundSet">
+            <Name>dlc_zombies_sounds9</Name>
+            <Header>
+                <Flags value="0xAAAAAAAA" />
+            </Header>
+            <Items>
+                <Item>
+                    <ScriptName>zombies_zombie9</ScriptName>
+                    <SoundName>dlc_zombies_zombie9_mt</SoundName>
+                </Item>
+            </Items>
+        </Item>
+
+        <Item type="SoundSet">
+            <Name>dlc_zombies_sounds10</Name>
+            <Header>
+                <Flags value="0xAAAAAAAA" />
+            </Header>
+            <Items>
+                <Item>
+                    <ScriptName>zombies_zombie10</ScriptName>
+                    <SoundName>dlc_zombies_zombie10_mt</SoundName>
+                </Item>
+            </Items>
+        </Item>
+
+        <Item type="SoundSet">
+            <Name>dlc_zombies_sounds11</Name>
+            <Header>
+                <Flags value="0xAAAAAAAA" />
+            </Header>
+            <Items>
+                <Item>
+                    <ScriptName>zombies_zombie11</ScriptName>
+                    <SoundName>dlc_zombies_zombie11_mt</SoundName>
+                </Item>
+            </Items>
+        </Item>
+
+        <Item type="SoundSet">
+            <Name>dlc_zombies_sounds12</Name>
+            <Header>
+                <Flags value="0xAAAAAAAA" />
+            </Header>
+            <Items>
+                <Item>
+                    <ScriptName>zombies_zombie12</ScriptName>
+                    <SoundName>dlc_zombies_zombie12_mt</SoundName>
+                </Item>
+            </Items>
+        </Item>
+
+        <Item type="SoundSet">
+            <Name>dlc_zombies_sounds13</Name>
+            <Header>
+                <Flags value="0xAAAAAAAA" />
+            </Header>
+            <Items>
+                <Item>
+                    <ScriptName>zombies_zombie13</ScriptName>
+                    <SoundName>dlc_zombies_zombie13_mt</SoundName>
+                </Item>
+            </Items>
+        </Item>
+
+        <Item type="SoundSet">
+            <Name>dlc_zombies_sounds14</Name>
+            <Header>
+                <Flags value="0xAAAAAAAA" />
+            </Header>
+            <Items>
+                <Item>
+                    <ScriptName>zombies_zombie14</ScriptName>
+                    <SoundName>dlc_zombies_zombie14_mt</SoundName>
+                </Item>
+            </Items>
+        </Item>
+
+        <Item type="SoundSet">
+            <Name>dlc_zombies_sounds15</Name>
+            <Header>
+                <Flags value="0xAAAAAAAA" />
+            </Header>
+            <Items>
+                <Item>
+                    <ScriptName>zombies_zombie15</ScriptName>
+                    <SoundName>dlc_zombies_zombie15_mt</SoundName>
+                </Item>
+            </Items>
+        </Item>
+
+        <Item type="SimpleSound">
+            <Name>dlc_zombies_pack_a_punch_l</Name>
+            <Header>
+                <Flags value="0x00000000" />
+            </Header>
+            <ContainerName>dlc_zombies/zombies</ContainerName>
+            <FileName>pack_a_punch</FileName>
+            <WaveSlotNum value="0" />
+        </Item>
+        <Item type="SimpleSound">
+            <Name>dlc_zombies_pack_a_punch_r</Name>
+            <Header>
+                <Flags value="0x00000000" />
+            </Header>
+            <ContainerName>dlc_zombies/zombies</ContainerName>
+            <FileName>pack_a_punch</FileName>
+            <WaveSlotNum value="0" />
+        </Item>
+        <Item type="MultitrackSound">
+            <Name>dlc_zombies_pack_a_punch_mt</Name>
+            <Header>
+                <Flags value="0x0008011" />    
+                <Flags2 value="0xAAA0AAAA" />
+                <Unk02 value="65236" />
+                <Category>hash_02C7B342</Category>
+            </Header>
+            <AudioTracks>
+                <Item>dlc_zombies_pack_a_punch_r</Item>
+                <Item>dlc_zombies_pack_a_punch_l</Item>
+            </AudioTracks>
+        </Item>
+        <Item type="SimpleSound">
+            <Name>dlc_zombies_teddybear_l</Name>
+            <Header>
+                <Flags value="0x00000000" />
+            </Header>
+            <ContainerName>dlc_zombies/zombies</ContainerName>
+            <FileName>teddybear</FileName>
+            <WaveSlotNum value="0" />
+        </Item>
+        <Item type="SimpleSound">
+            <Name>dlc_zombies_teddybear_r</Name>
+            <Header>
+                <Flags value="0x00000000" />
+            </Header>
+            <ContainerName>dlc_zombies/zombies</ContainerName>
+            <FileName>teddybear</FileName>
+            <WaveSlotNum value="0" />
+        </Item>
+        <Item type="MultitrackSound">
+            <Name>dlc_zombies_teddybear_mt</Name>
+            <Header>
+                <Flags value="0x0008011" />    
+                <Flags2 value="0xAAA0AAAA" />
+                <Unk02 value="65236" />
+                <Category>hash_02C7B342</Category>
+            </Header>
+            <AudioTracks>
+                <Item>dlc_zombies_teddybear_r</Item>
+                <Item>dlc_zombies_teddybear_l</Item>
+            </AudioTracks>
+        </Item>
+        <Item type="SimpleSound">
+            <Name>dlc_zombies_mysterybox_l</Name>
+            <Header>
+                <Flags value="0x00000000" />
+            </Header>
+            <ContainerName>dlc_zombies/zombies</ContainerName>
+            <FileName>mysterybox</FileName>
+            <WaveSlotNum value="0" />
+        </Item>
+        <Item type="SimpleSound">
+            <Name>dlc_zombies_mysterybox_r</Name>
+            <Header>
+                <Flags value="0x00000000" />
+            </Header>
+            <ContainerName>dlc_zombies/zombies</ContainerName>
+            <FileName>mysterybox</FileName>
+            <WaveSlotNum value="0" />
+        </Item>
+        <Item type="MultitrackSound">
+            <Name>dlc_zombies_mysterybox_mt</Name>
+            <Header>
+                <Flags value="0x0008011" />    
+                <Flags2 value="0xAAA0AAAA" />
+                <Unk02 value="65236" />
+                <Category>hash_02C7B342</Category>
+            </Header>
+            <AudioTracks>
+                <Item>dlc_zombies_mysterybox_r</Item>
+                <Item>dlc_zombies_mysterybox_l</Item>
+            </AudioTracks>
+        </Item>
+        <Item type="SimpleSound">
+            <Name>dlc_zombies_zombie1_l</Name>
+            <Header>
+                <Flags value="0x00000000" />
+            </Header>
+            <ContainerName>dlc_zombies/zombies</ContainerName>
+            <FileName>zombie1</FileName>
+            <WaveSlotNum value="0" />
+        </Item>
+        <Item type="SimpleSound">
+            <Name>dlc_zombies_zombie1_r</Name>
+            <Header>
+                <Flags value="0x00000000" />
+            </Header>
+            <ContainerName>dlc_zombies/zombies</ContainerName>
+            <FileName>zombie1</FileName>
+            <WaveSlotNum value="0" />
+        </Item>
+        <Item type="MultitrackSound">
+            <Name>dlc_zombies_zombie1_mt</Name>
+            <Header>
+                <Flags value="0x0008011" />    
+                <Flags2 value="0xAAA0AAAA" />
+                <Unk02 value="65236" />
+                <Category>hash_02C7B342</Category>
+            </Header>
+            <AudioTracks>
+                <Item>dlc_zombies_zombie1_r</Item>
+                <Item>dlc_zombies_zombie1_l</Item>
+            </AudioTracks>
+        </Item>
+        <Item type="SimpleSound">
+            <Name>dlc_zombies_zombie2_l</Name>
+            <Header>
+                <Flags value="0x00000000" />
+            </Header>
+            <ContainerName>dlc_zombies/zombies</ContainerName>
+            <FileName>zombie2</FileName>
+            <WaveSlotNum value="0" />
+        </Item>
+        <Item type="SimpleSound">
+            <Name>dlc_zombies_zombie2_r</Name>
+            <Header>
+                <Flags value="0x00000000" />
+            </Header>
+            <ContainerName>dlc_zombies/zombies</ContainerName>
+            <FileName>zombie2</FileName>
+            <WaveSlotNum value="0" />
+        </Item>
+        <Item type="MultitrackSound">
+            <Name>dlc_zombies_zombie2_mt</Name>
+            <Header>
+                <Flags value="0x0008011" />    
+                <Flags2 value="0xAAA0AAAA" />
+                <Unk02 value="65236" />
+                <Category>hash_02C7B342</Category>
+            </Header>
+            <AudioTracks>
+                <Item>dlc_zombies_zombie2_r</Item>
+                <Item>dlc_zombies_zombie2_l</Item>
+            </AudioTracks>
+        </Item>
+        <Item type="SimpleSound">
+            <Name>dlc_zombies_zombie3_l</Name>
+            <Header>
+                <Flags value="0x00000000" />
+            </Header>
+            <ContainerName>dlc_zombies/zombies</ContainerName>
+            <FileName>zombie3</FileName>
+            <WaveSlotNum value="0" />
+        </Item>
+        <Item type="SimpleSound">
+            <Name>dlc_zombies_zombie3_r</Name>
+            <Header>
+                <Flags value="0x00000000" />
+            </Header>
+            <ContainerName>dlc_zombies/zombies</ContainerName>
+            <FileName>zombie3</FileName>
+            <WaveSlotNum value="0" />
+        </Item>
+        <Item type="MultitrackSound">
+            <Name>dlc_zombies_zombie3_mt</Name>
+            <Header>
+                <Flags value="0x0008011" />    
+                <Flags2 value="0xAAA0AAAA" />
+                <Unk02 value="65236" />
+                <Category>hash_02C7B342</Category>
+            </Header>
+            <AudioTracks>
+                <Item>dlc_zombies_zombie3_r</Item>
+                <Item>dlc_zombies_zombie3_l</Item>
+            </AudioTracks>
+        </Item>
+        <Item type="SimpleSound">
+            <Name>dlc_zombies_zombie4_l</Name>
+            <Header>
+                <Flags value="0x00000000" />
+            </Header>
+            <ContainerName>dlc_zombies/zombies</ContainerName>
+            <FileName>zombie4</FileName>
+            <WaveSlotNum value="0" />
+        </Item>
+        <Item type="SimpleSound">
+            <Name>dlc_zombies_zombie4_r</Name>
+            <Header>
+                <Flags value="0x00000000" />
+            </Header>
+            <ContainerName>dlc_zombies/zombies</ContainerName>
+            <FileName>zombie4</FileName>
+            <WaveSlotNum value="0" />
+        </Item>
+        <Item type="MultitrackSound">
+            <Name>dlc_zombies_zombie4_mt</Name>
+            <Header>
+                <Flags value="0x0008011" />    
+                <Flags2 value="0xAAA0AAAA" />
+                <Unk02 value="65236" />
+                <Category>hash_02C7B342</Category>
+            </Header>
+            <AudioTracks>
+                <Item>dlc_zombies_zombie4_r</Item>
+                <Item>dlc_zombies_zombie4_l</Item>
+            </AudioTracks>
+        </Item>
+        <Item type="SimpleSound">
+            <Name>dlc_zombies_zombie5_l</Name>
+            <Header>
+                <Flags value="0x00000000" />
+            </Header>
+            <ContainerName>dlc_zombies/zombies</ContainerName>
+            <FileName>zombie5</FileName>
+            <WaveSlotNum value="0" />
+        </Item>
+        <Item type="SimpleSound">
+            <Name>dlc_zombies_zombie5_r</Name>
+            <Header>
+                <Flags value="0x00000000" />
+            </Header>
+            <ContainerName>dlc_zombies/zombies</ContainerName>
+            <FileName>zombie5</FileName>
+            <WaveSlotNum value="0" />
+        </Item>
+        <Item type="MultitrackSound">
+            <Name>dlc_zombies_zombie5_mt</Name>
+            <Header>
+                <Flags value="0x0008011" />    
+                <Flags2 value="0xAAA0AAAA" />
+                <Unk02 value="65236" />
+                <Category>hash_02C7B342</Category>
+            </Header>
+            <AudioTracks>
+                <Item>dlc_zombies_zombie5_r</Item>
+                <Item>dlc_zombies_zombie5_l</Item>
+            </AudioTracks>
+        </Item>
+        <Item type="SimpleSound">
+            <Name>dlc_zombies_zombie6_l</Name>
+            <Header>
+                <Flags value="0x00000000" />
+            </Header>
+            <ContainerName>dlc_zombies/zombies</ContainerName>
+            <FileName>zombie6</FileName>
+            <WaveSlotNum value="0" />
+        </Item>
+        <Item type="SimpleSound">
+            <Name>dlc_zombies_zombie6_r</Name>
+            <Header>
+                <Flags value="0x00000000" />
+            </Header>
+            <ContainerName>dlc_zombies/zombies</ContainerName>
+            <FileName>zombie6</FileName>
+            <WaveSlotNum value="0" />
+        </Item>
+        <Item type="MultitrackSound">
+            <Name>dlc_zombies_zombie6_mt</Name>
+            <Header>
+                <Flags value="0x0008011" />    
+                <Flags2 value="0xAAA0AAAA" />
+                <Unk02 value="65236" />
+                <Category>hash_02C7B342</Category>
+            </Header>
+            <AudioTracks>
+                <Item>dlc_zombies_zombie6_r</Item>
+                <Item>dlc_zombies_zombie6_l</Item>
+            </AudioTracks>
+        </Item>
+        <Item type="SimpleSound">
+            <Name>dlc_zombies_zombie7_l</Name>
+            <Header>
+                <Flags value="0x00000000" />
+            </Header>
+            <ContainerName>dlc_zombies/zombies</ContainerName>
+            <FileName>zombie7</FileName>
+            <WaveSlotNum value="0" />
+        </Item>
+        <Item type="SimpleSound">
+            <Name>dlc_zombies_zombie7_r</Name>
+            <Header>
+                <Flags value="0x00000000" />
+            </Header>
+            <ContainerName>dlc_zombies/zombies</ContainerName>
+            <FileName>zombie7</FileName>
+            <WaveSlotNum value="0" />
+        </Item>
+        <Item type="MultitrackSound">
+            <Name>dlc_zombies_zombie7_mt</Name>
+            <Header>
+                <Flags value="0x0008011" />    
+                <Flags2 value="0xAAA0AAAA" />
+                <Unk02 value="65236" />
+                <Category>hash_02C7B342</Category>
+            </Header>
+            <AudioTracks>
+                <Item>dlc_zombies_zombie7_r</Item>
+                <Item>dlc_zombies_zombie7_l</Item>
+            </AudioTracks>
+        </Item>
+        <Item type="SimpleSound">
+            <Name>dlc_zombies_zombie8_l</Name>
+            <Header>
+                <Flags value="0x00000000" />
+            </Header>
+            <ContainerName>dlc_zombies/zombies</ContainerName>
+            <FileName>zombie8</FileName>
+            <WaveSlotNum value="0" />
+        </Item>
+        <Item type="SimpleSound">
+            <Name>dlc_zombies_zombie8_r</Name>
+            <Header>
+                <Flags value="0x00000000" />
+            </Header>
+            <ContainerName>dlc_zombies/zombies</ContainerName>
+            <FileName>zombie8</FileName>
+            <WaveSlotNum value="0" />
+        </Item>
+        <Item type="MultitrackSound">
+            <Name>dlc_zombies_zombie8_mt</Name>
+            <Header>
+                <Flags value="0x0008011" />    
+                <Flags2 value="0xAAA0AAAA" />
+                <Unk02 value="65236" />
+                <Category>hash_02C7B342</Category>
+            </Header>
+            <AudioTracks>
+                <Item>dlc_zombies_zombie8_r</Item>
+                <Item>dlc_zombies_zombie8_l</Item>
+            </AudioTracks>
+        </Item>
+        <Item type="SimpleSound">
+            <Name>dlc_zombies_zombie9_l</Name>
+            <Header>
+                <Flags value="0x00000000" />
+            </Header>
+            <ContainerName>dlc_zombies/zombies</ContainerName>
+            <FileName>zombie9</FileName>
+            <WaveSlotNum value="0" />
+        </Item>
+        <Item type="SimpleSound">
+            <Name>dlc_zombies_zombie9_r</Name>
+            <Header>
+                <Flags value="0x00000000" />
+            </Header>
+            <ContainerName>dlc_zombies/zombies</ContainerName>
+            <FileName>zombie9</FileName>
+            <WaveSlotNum value="0" />
+        </Item>
+        <Item type="MultitrackSound">
+            <Name>dlc_zombies_zombie9_mt</Name>
+            <Header>
+                <Flags value="0x0008011" />    
+                <Flags2 value="0xAAA0AAAA" />
+                <Unk02 value="65236" />
+                <Category>hash_02C7B342</Category>
+            </Header>
+            <AudioTracks>
+                <Item>dlc_zombies_zombie9_r</Item>
+                <Item>dlc_zombies_zombie9_l</Item>
+            </AudioTracks>
+        </Item>
+        <Item type="SimpleSound">
+            <Name>dlc_zombies_zombie10_l</Name>
+            <Header>
+                <Flags value="0x00000000" />
+            </Header>
+            <ContainerName>dlc_zombies/zombies</ContainerName>
+            <FileName>zombie10</FileName>
+            <WaveSlotNum value="0" />
+        </Item>
+        <Item type="SimpleSound">
+            <Name>dlc_zombies_zombie10_r</Name>
+            <Header>
+                <Flags value="0x00000000" />
+            </Header>
+            <ContainerName>dlc_zombies/zombies</ContainerName>
+            <FileName>zombie10</FileName>
+            <WaveSlotNum value="0" />
+        </Item>
+        <Item type="MultitrackSound">
+            <Name>dlc_zombies_zombie10_mt</Name>
+            <Header>
+                <Flags value="0x0008011" />    
+                <Flags2 value="0xAAA0AAAA" />
+                <Unk02 value="65236" />
+                <Category>hash_02C7B342</Category>
+            </Header>
+            <AudioTracks>
+                <Item>dlc_zombies_zombie10_r</Item>
+                <Item>dlc_zombies_zombie10_l</Item>
+            </AudioTracks>
+        </Item>
+        <Item type="SimpleSound">
+            <Name>dlc_zombies_zombie11_l</Name>
+            <Header>
+                <Flags value="0x00000000" />
+            </Header>
+            <ContainerName>dlc_zombies/zombies</ContainerName>
+            <FileName>zombie11</FileName>
+            <WaveSlotNum value="0" />
+        </Item>
+        <Item type="SimpleSound">
+            <Name>dlc_zombies_zombie11_r</Name>
+            <Header>
+                <Flags value="0x00000000" />
+            </Header>
+            <ContainerName>dlc_zombies/zombies</ContainerName>
+            <FileName>zombie11</FileName>
+            <WaveSlotNum value="0" />
+        </Item>
+        <Item type="MultitrackSound">
+            <Name>dlc_zombies_zombie11_mt</Name>
+            <Header>
+                <Flags value="0x0008011" />    
+                <Flags2 value="0xAAA0AAAA" />
+                <Unk02 value="65236" />
+                <Category>hash_02C7B342</Category>
+            </Header>
+            <AudioTracks>
+                <Item>dlc_zombies_zombie11_r</Item>
+                <Item>dlc_zombies_zombie11_l</Item>
+            </AudioTracks>
+        </Item>
+        <Item type="SimpleSound">
+            <Name>dlc_zombies_zombie12_l</Name>
+            <Header>
+                <Flags value="0x00000000" />
+            </Header>
+            <ContainerName>dlc_zombies/zombies</ContainerName>
+            <FileName>zombie12</FileName>
+            <WaveSlotNum value="0" />
+        </Item>
+        <Item type="SimpleSound">
+            <Name>dlc_zombies_zombie12_r</Name>
+            <Header>
+                <Flags value="0x00000000" />
+            </Header>
+            <ContainerName>dlc_zombies/zombies</ContainerName>
+            <FileName>zombie12</FileName>
+            <WaveSlotNum value="0" />
+        </Item>
+        <Item type="MultitrackSound">
+            <Name>dlc_zombies_zombie12_mt</Name>
+            <Header>
+                <Flags value="0x0008011" />    
+                <Flags2 value="0xAAA0AAAA" />
+                <Unk02 value="65236" />
+                <Category>hash_02C7B342</Category>
+            </Header>
+            <AudioTracks>
+                <Item>dlc_zombies_zombie12_r</Item>
+                <Item>dlc_zombies_zombie12_l</Item>
+            </AudioTracks>
+        </Item>
+        <Item type="SimpleSound">
+            <Name>dlc_zombies_zombie13_l</Name>
+            <Header>
+                <Flags value="0x00000000" />
+            </Header>
+            <ContainerName>dlc_zombies/zombies</ContainerName>
+            <FileName>zombie13</FileName>
+            <WaveSlotNum value="0" />
+        </Item>
+        <Item type="SimpleSound">
+            <Name>dlc_zombies_zombie13_r</Name>
+            <Header>
+                <Flags value="0x00000000" />
+            </Header>
+            <ContainerName>dlc_zombies/zombies</ContainerName>
+            <FileName>zombie13</FileName>
+            <WaveSlotNum value="0" />
+        </Item>
+        <Item type="MultitrackSound">
+            <Name>dlc_zombies_zombie13_mt</Name>
+            <Header>
+                <Flags value="0x0008011" />    
+                <Flags2 value="0xAAA0AAAA" />
+                <Unk02 value="65236" />
+                <Category>hash_02C7B342</Category>
+            </Header>
+            <AudioTracks>
+                <Item>dlc_zombies_zombie13_r</Item>
+                <Item>dlc_zombies_zombie13_l</Item>
+            </AudioTracks>
+        </Item>
+        <Item type="SimpleSound">
+            <Name>dlc_zombies_zombie14_l</Name>
+            <Header>
+                <Flags value="0x00000000" />
+            </Header>
+            <ContainerName>dlc_zombies/zombies</ContainerName>
+            <FileName>zombie14</FileName>
+            <WaveSlotNum value="0" />
+        </Item>
+        <Item type="SimpleSound">
+            <Name>dlc_zombies_zombie14_r</Name>
+            <Header>
+                <Flags value="0x00000000" />
+            </Header>
+            <ContainerName>dlc_zombies/zombies</ContainerName>
+            <FileName>zombie14</FileName>
+            <WaveSlotNum value="0" />
+        </Item>
+        <Item type="MultitrackSound">
+            <Name>dlc_zombies_zombie14_mt</Name>
+            <Header>
+                <Flags value="0x0008011" />    
+                <Flags2 value="0xAAA0AAAA" />
+                <Unk02 value="65236" />
+                <Category>hash_02C7B342</Category>
+            </Header>
+            <AudioTracks>
+                <Item>dlc_zombies_zombie14_r</Item>
+                <Item>dlc_zombies_zombie14_l</Item>
+            </AudioTracks>
+        </Item>
+        <Item type="SimpleSound">
+            <Name>dlc_zombies_zombie15_l</Name>
+            <Header>
+                <Flags value="0x00000000" />
+            </Header>
+            <ContainerName>dlc_zombies/zombies</ContainerName>
+            <FileName>zombie15</FileName>
+            <WaveSlotNum value="0" />
+        </Item>
+        <Item type="SimpleSound">
+            <Name>dlc_zombies_zombie15_r</Name>
+            <Header>
+                <Flags value="0x00000000" />
+            </Header>
+            <ContainerName>dlc_zombies/zombies</ContainerName>
+            <FileName>zombie15</FileName>
+            <WaveSlotNum value="0" />
+        </Item>
+        <Item type="MultitrackSound">
+            <Name>dlc_zombies_zombie15_mt</Name>
+            <Header>
+                <Flags value="0x0008011" />    
+                <Flags2 value="0xAAA0AAAA" />
+                <Unk02 value="65236" />
+                <Category>hash_02C7B342</Category>
+            </Header>
+            <AudioTracks>
+                <Item>dlc_zombies_zombie15_r</Item>
+                <Item>dlc_zombies_zombie15_l</Item>
+            </AudioTracks>
+        </Item>
+    </Items>
+</Dat54>

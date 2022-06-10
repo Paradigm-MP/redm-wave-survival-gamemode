@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CMapTypes>
+  <extensions/>
+  <archetypes>
+
+  <Item type="CBaseArchetypeDef"><lodDist value="500.0"/><flags value="32"/><specialAttribute value="0"/><bbMin x="0.0" y="0.0" z="0.0"/><bbMax x="0.0" y="0.0" z="0.0"/><bsCentre x="0.0" y="0.0" z="0.0"/><bsRadius value="0.0"/><hdTextureDist value="5.0"/><name>mysterybox_lid</name><textureDictionary>mysterybox_lid</textureDictionary><clipDictionary/><drawableDictionary/><physicsDictionary>mysterybox_lid</physicsDictionary><assetType>ASSET_TYPE_DRAWABLE</assetType><assetName>mysterybox_lid</assetName><extensions/></Item></archetypes>
+  <name>mysterybox_lid_props</name>
+  <dependencies/>
+  <compositeEntityTypes/>
+</CMapTypes>

@@ -1,0 +1,10 @@
+Version 13 30
+{
+	Image lambert1_albedo.jpg
+	Type Regular
+	PixelFormat DXT5
+	Levels 10
+	Usage UNKNOWN
+	UsageFlags -
+	ExtraFlags 0
+}

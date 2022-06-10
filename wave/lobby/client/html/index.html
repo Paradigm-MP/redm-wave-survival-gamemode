@@ -1,0 +1,240 @@
+<html>
+    <link rel="stylesheet" href="../../../ui/reset.css" type="text/css">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="selectmenu.css" type="text/css">
+    <script src="../../../ui/jquery.js" type="text/javascript"></script>
+    <script src="./script.js" type="text/javascript"></script>
+    <body>
+        <div class='content-area'>
+            <div class='button fixed quit-game'>Quit to Desktop</div>
+            <div class='title-bar'>
+                <div class='title-entry selected' id='lobby'>LOBBY<div class='underline'></div></div>
+                <div class='title-entry' id='shop'>SHOP<div class='underline'></div></div>
+                <div class='title-entry' id='leaderboards'>LEADERBOARDS<div class='underline'></div></div>
+                <div class='title-entry' id='updates'>UPDATES<div class='new'>NEW!</div><div class='underline'></div></div>
+            </div>
+            <div class='section-content-area'>
+                <div class='section-container section-lobby'>
+                    <div class='content-map'>
+                        <div class='map-container'>
+                            <div class='content-title'>MAP</div>
+                            <div class='map-selection-container'>
+                                <div class='title'>SELECT A MAP</div>
+                                <div class='map-entries'>
+                                    <div class='map-entry selected'>
+                                        <div class='bg'></div>
+                                        <div class='title'>deserted streets</div>
+                                        <div class='players easy'>easy: 
+                                            <div class='players-queued-count'>5</div>
+                                            <div class='white'>Players</div> 
+                                            <div class='players-ready-count'>
+                                                (
+                                                    <div class='count'>3</div> Ready
+                                                )
+                                            </div>
+                                        </div>
+                                        <div class='players medium'>medium: 
+                                            <div class='player-dots'>
+                                                <div class='player-dot'></div>
+                                                <div class='player-dot ready'></div>
+                                                <div class='player-dot ready'></div>
+                                                <div class='player-dot ready'></div>
+                                                <div class='player-dot'></div>
+                                                <div class='player-dot'></div>
+                                            </div>
+                                        </div>
+                                        <div class='players hard'>hard: 
+                                            <div class='player-dots'>
+                                                <div class='player-dot'></div>
+                                                <div class='player-dot ready'></div>
+                                                <div class='player-dot ready'></div>
+                                                <div class='player-dot ready'></div>
+                                                <div class='player-dot'></div>
+                                                <div class='player-dot'></div>
+                                            </div>
+                                        </div>
+                                        <div class='players nightmare'>nightmare: 
+                                            <div class='player-dots'>
+                                                <div class='player-dot'></div>
+                                                <div class='player-dot ready'></div>
+                                                <div class='player-dot ready'></div>
+                                                <div class='player-dot ready'></div>
+                                                <div class='player-dot'></div>
+                                                <div class='player-dot'></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class='map-entry'>
+                                        <div class='bg'></div>
+                                        <div class='title'>mountaintop</div>
+                                    </div>
+                                    <div class='map-entry'>
+                                        <div class='bg'></div>
+                                        <div class='title'>abandoned house</div>
+                                    </div>
+                                    <div class='map-entry'>
+                                        <div class='bg'></div>
+                                        <div class='title'>construction zone</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class='map-details'>
+                                <div class='title'>deserted streets</div>
+                                <div class='difficulty nightmare'>nightmare</div>
+                                <div class='players-title'>players</div>
+                                <div class='map-players'>
+                                    <div class='player-entry'></div>
+                                    <div class='player-entry ready'></div>
+                                    <div class='player-entry ready'></div>
+                                    <div class='player-entry'></div>
+                                    <div class='player-entry'></div>
+                                    <div class='player-entry'></div>
+                                    <div class='player-entry ready'></div>
+                                    <div class='player-entry ready'></div>
+                                    <div class='player-entry'></div>
+                                    <div class='player-entry'></div>
+                                    <div class='player-entry'></div>
+                                    <div class='player-entry ready'></div>
+                                    <div class='player-entry ready'></div>
+                                </div>
+                            </div>
+                            <div class='map-image'>
+                                <div class='title-container'>
+                                    <div class='title'>deserted streets</div><div class='difficulty nightmare'>nightmare</div>
+                                </div>
+                            </div>
+                            <div class='map-difficulty'>
+                                <div class='title'>SELECT A DIFFICULTY</div>
+                                <div class='selection-container'>
+                                    <span class="choose"></span>
+                                    <div class="dropdown">
+                                        <div class="select">
+                                            <span id='dropdown_title' class='easy'>easy</span>
+                                        </div>
+                                        <input type="hidden" name="difficulty">
+                                        <ul class="dropdown-menu">
+                                            <li id="easy" class='easy'>easy</li>
+                                            <li id="medium" class='medium'>medium</li>
+                                            <li id="hard" class='hard'>hard</li>
+                                            <li id="gunslinger" class='gunslinger'>gunslinger</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class='countdown-container'>
+                                    <svg class='progress blurred' xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <circle class='background'></circle>
+                                    </svg>
+                                    <svg class='progress' xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <circle class='background'></circle>
+                                        <circle class='fill'></circle>
+                                    </svg>
+                                    <div class='countdown'>15</div>
+                                </div>
+                                <div class='hr'></div>
+                                <div class='map-join button lobby-button'>Join</div>
+                                <div class='map-ready button lobby-button'>Ready</div>
+                            </div>
+                        </div>
+                        <div class='map-gameinprogress-container'>
+                            <div class='content-container'>
+                                <div class='title'>GAME IN PROGRESS</div>
+                                <div class='map-image'>
+                                    <div class='title-container'>
+                                        <div class='title'>deserted streets</div><div class='difficulty nightmare'>nightmare</div>
+                                    </div>
+                                </div>
+                                <div class='button clicktojoin'>JOIN GAME</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='content-players'>
+                        <div class='content-title'>PLAYERS</div>
+                        <div class='players-container'>
+                            <div class='players-entry'>
+                                <div class='icon circle'></div>
+                                <div class='name'>Lord Farquaad</div>
+                                <div class='level'>lvl <div class='val'>14</div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class='section-container section-shop'>
+                    <div class='shop-title'>
+                        <div class='title'>Buy Skins</div>
+                        <div class='money' id='moneydisplay'>$0.00</div>
+                    </div>
+                    <div class='shop-container'>
+                        <div class='shop-entry'>
+                            <img class='image' src='./images/shop/Player_Zero_1.JPG'></img>
+                            <div class='cost'>$20</div>
+                            <div class='buy-equip'>Buy</div>
+                            <div class='ownership-indicator'></div>
+                        </div>
+                        <div class='shop-entry cant-afford'>
+                            <img class='image' src='./images/shop/Player_Zero_1.JPG'></img>
+                            <div class='cost'>$20</div>
+                            <div class='buy-equip'>Buy</div>
+                            <div class='ownership-indicator'></div>
+                        </div>
+                        <div class='shop-entry purchased equipped'>
+                            <img class='image' src='./images/shop/Player_Zero_1.JPG'></img>
+                            <div class='cost'>$20</div>
+                            <div class='buy-equip'>Equipped</div>
+                            <div class='ownership-indicator'></div>
+                        </div>
+                        <div class='shop-entry purchased'>
+                            <img class='image' src='./images/shop/Player_Zero_1.JPG'></img>
+                            <div class='cost'>$300</div>
+                            <div class='buy-equip'>Equip</div>
+                            <div class='ownership-indicator'></div>
+                        </div>
+                        <div class='shop-entry purchased'>
+                            <img class='image' src='./images/shop/Player_Zero_1.JPG'></img>
+                            <div class='cost'>$300</div>
+                            <div class='buy-equip'>Equip</div>
+                            <div class='ownership-indicator'></div>
+                        </div>
+                        <div class='shop-entry purchased'>
+                            <img class='image' src='./images/shop/Player_Zero_1.JPG'></img>
+                            <div class='cost'>$300</div>
+                            <div class='buy-equip'>Equip</div>
+                            <div class='ownership-indicator'></div>
+                        </div>
+                        <div class='shop-entry purchased'>
+                            <img class='image' src='./images/shop/Player_Zero_1.JPG'></img>
+                            <div class='cost'>$300</div>
+                            <div class='buy-equip'>Equip</div>
+                            <div class='ownership-indicator'></div>
+                        </div>
+                        <div class='shop-entry purchased'>
+                            <img class='image' src='./images/shop/Player_Zero_1.JPG'></img>
+                            <div class='cost'>$300</div>
+                            <div class='buy-equip'>Equip</div>
+                            <div class='ownership-indicator'></div>
+                        </div>
+                        <div class='shop-entry purchased'>
+                            <img class='image' src='./images/shop/Player_Zero_1.JPG'></img>
+                            <div class='cost'>$300</div>
+                            <div class='buy-equip'>Equip</div>
+                            <div class='ownership-indicator'></div>
+                        </div>
+                        <div class='shop-entry purchased'>
+                            <img class='image' src='./images/shop/Player_Zero_1.JPG'></img>
+                            <div class='cost'>$300</div>
+                            <div class='buy-equip'>Equip</div>
+                            <div class='ownership-indicator'></div>
+                        </div>
+                    </div>
+                </div>
+                <div class='section-container section-leaderboards'>
+                    <div class='coming-soon'>coming soon!</div>
+                </div>
+                <div class='section-container section-updates'>
+                    <div class='update-container'>
+                        <iframe src='http://paradigm.mp/wave-survival-changelog/'></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

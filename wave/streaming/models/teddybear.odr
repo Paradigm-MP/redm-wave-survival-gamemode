@@ -1,0 +1,42 @@
+Version 165 32
+{
+	Shaders
+	{
+		default.sps
+		{
+			DiffuseSampler teddybear\_2011-03-12_00009.otx
+			HardAlphaBlend 1.0000000
+			UseTessellation 0.0000000
+		}
+		default.sps
+		{
+			DiffuseSampler teddybear\Carpet_Plush_Charcoal.otx
+			HardAlphaBlend 1.0000000
+			UseTessellation 0.0000000
+		}
+		default.sps
+		{
+			DiffuseSampler teddybear\_2011-03-12_00009_1.otx
+			HardAlphaBlend 1.0000000
+			UseTessellation 0.0000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		High 9998.0
+		{
+			teddybear\teddymodel.mesh 0
+		}
+		Med 9998.0
+		Low 9998.0
+		Vlow 9998.0
+		AABBMin -0.3906538 -0.2831793 -0.2700837
+		AABBMax 0.0427989 0.3031877 0.3896691
+		Radius 0.491676
+		Center -0.1739274 0.0100042 0.0597927
+	}
+	Light null
+	Bound teddybear\teddybear.bound
+	Joints null
+}

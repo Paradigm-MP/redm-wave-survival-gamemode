@@ -1,0 +1,698 @@
+{
+    "items":
+    {
+        "skins":
+        [
+            {
+                "cost": 0,
+                "enabled": true,
+                "model": "Player_Zero",
+                "outfit": 0
+            },
+            {
+                "cost": 50,
+                "enabled": true,
+                "model": "Player_Zero",
+                "outfit": 1
+            },
+            {
+                "cost": 50,
+                "enabled": true,
+                "model": "Player_Zero",
+                "outfit": 2
+            },
+            {
+                "cost": 50,
+                "enabled": true,
+                "model": "Player_Zero",
+                "outfit": 3
+            },
+            {
+                "cost": 50,
+                "enabled": true,
+                "model": "Player_Zero",
+                "outfit": 4
+            },
+            {
+                "cost": 50,
+                "enabled": true,
+                "model": "Player_Zero",
+                "outfit": 5
+            },
+            {
+                "cost": 50,
+                "enabled": true,
+                "model": "Player_Zero",
+                "outfit": 6
+            },
+            {
+                "cost": 50,
+                "enabled": true,
+                "model": "Player_Zero",
+                "outfit": 7
+            },
+            {
+                "cost": 300,
+                "enabled": true,
+                "model": "Player_Zero",
+                "outfit": 13
+            },
+            {
+                "cost": 1500,
+                "enabled": true,
+                "model": "Player_Zero",
+                "outfit": 14
+            },
+            {
+                "cost": 100,
+                "enabled": true,
+                "model": "Player_Zero",
+                "outfit": 15
+            },
+            {
+                "cost": 50,
+                "enabled": true,
+                "model": "Player_Zero",
+                "outfit": 16
+            },
+            {
+                "cost": 150,
+                "enabled": true,
+                "model": "Player_Zero",
+                "outfit": 18
+            },
+            {
+                "cost": 100,
+                "enabled": true,
+                "model": "Player_Zero",
+                "outfit": 19
+            },
+            {
+                "cost": 50,
+                "enabled": true,
+                "model": "Player_Zero",
+                "outfit": 20
+            },
+            {
+                "cost": 50,
+                "enabled": true,
+                "model": "Player_Zero",
+                "outfit": 21
+            },
+            {
+                "cost": 50,
+                "enabled": true,
+                "model": "Player_Zero",
+                "outfit": 22
+            },
+            {
+                "cost": 50,
+                "enabled": true,
+                "model": "Player_Zero",
+                "outfit": 23
+            },
+            {
+                "cost": 50,
+                "enabled": true,
+                "model": "Player_Zero",
+                "outfit": 24
+            },
+            {
+                "cost": 50,
+                "enabled": true,
+                "model": "Player_Zero",
+                "outfit": 26
+            },
+            {
+                "cost": 50,
+                "enabled": true,
+                "model": "Player_Zero",
+                "outfit": 27
+            },
+            {
+                "cost": 50,
+                "enabled": true,
+                "model": "Player_Zero",
+                "outfit": 28
+            },
+            {
+                "cost": 50,
+                "enabled": true,
+                "model": "Player_Zero",
+                "outfit": 29
+            },
+            {
+                "cost": 50,
+                "enabled": true,
+                "model": "Player_Zero",
+                "outfit": 30
+            },
+            {
+                "cost": 50,
+                "enabled": true,
+                "model": "Player_Zero",
+                "outfit": 31
+            },
+            {
+                "cost": 50,
+                "enabled": true,
+                "model": "Player_Zero",
+                "outfit": 32
+            },
+            {
+                "cost": 100,
+                "enabled": true,
+                "model": "Player_Zero",
+                "outfit": 33
+            },
+            {
+                "cost": 50,
+                "enabled": true,
+                "model": "Player_Zero",
+                "outfit": 34
+            },
+            {
+                "cost": 50,
+                "enabled": true,
+                "model": "Player_Zero",
+                "outfit": 35
+            },
+            {
+                "cost": 50,
+                "enabled": true,
+                "model": "Player_Zero",
+                "outfit": 36
+            },
+            {
+                "cost": 50,
+                "enabled": true,
+                "model": "Player_Zero",
+                "outfit": 37
+            },
+            {
+                "cost": 50,
+                "enabled": true,
+                "model": "Player_Zero",
+                "outfit": 38
+            },
+            {
+                "cost": 50,
+                "enabled": true,
+                "model": "Player_Zero",
+                "outfit": 39
+            },
+            {
+                "cost": 50,
+                "enabled": true,
+                "model": "Player_Zero",
+                "outfit": 40
+            },
+            {
+                "cost": 50,
+                "enabled": true,
+                "model": "Player_Zero",
+                "outfit": 41
+            },
+            {
+                "cost": 50,
+                "enabled": true,
+                "model": "Player_Zero",
+                "outfit": 42
+            },
+            {
+                "cost": 50,
+                "enabled": true,
+                "model": "Player_Zero",
+                "outfit": 43
+            },
+            {
+                "cost": 50,
+                "enabled": true,
+                "model": "Player_Zero",
+                "outfit": 44
+            },
+            {
+                "cost": 75,
+                "enabled": true,
+                "model": "Player_Zero",
+                "outfit": 45
+            },
+            {
+                "cost": 50,
+                "enabled": true,
+                "model": "Player_Zero",
+                "outfit": 46
+            },
+            {
+                "cost": 50,
+                "enabled": true,
+                "model": "Player_Zero",
+                "outfit": 47
+            },
+            {
+                "cost": 75,
+                "enabled": true,
+                "model": "Player_Zero",
+                "outfit": 48
+            },
+            {
+                "cost": 75,
+                "enabled": true,
+                "model": "Player_Zero",
+                "outfit": 49
+            },
+            {
+                "cost": 75,
+                "enabled": true,
+                "model": "Player_Zero",
+                "outfit": 50
+            },
+            {
+                "cost": 75,
+                "enabled": true,
+                "model": "Player_Zero",
+                "outfit": 51
+            },
+            {
+                "cost": 75,
+                "enabled": true,
+                "model": "Player_Zero",
+                "outfit": 52
+            },
+            {
+                "cost": 100,
+                "enabled": true,
+                "model": "Player_Zero",
+                "outfit": 53
+            },
+            {
+                "cost": 50,
+                "enabled": true,
+                "model": "Player_Zero",
+                "outfit": 54
+            },
+            {
+                "cost": 50,
+                "enabled": true,
+                "model": "Player_Zero",
+                "outfit": 55
+            },
+            {
+                "cost": 50,
+                "enabled": true,
+                "model": "Player_Zero",
+                "outfit": 56
+            },
+            {
+                "cost": 50,
+                "enabled": true,
+                "model": "Player_Zero",
+                "outfit": 57
+            },
+            {
+                "cost": 50,
+                "enabled": true,
+                "model": "Player_Three",
+                "outfit": 0
+            },
+            {
+                "cost": 100,
+                "enabled": true,
+                "model": "Player_Three",
+                "outfit": 1
+            },
+            {
+                "cost": 50,
+                "enabled": true,
+                "model": "Player_Three",
+                "outfit": 3
+            },
+            {
+                "cost": 50,
+                "enabled": true,
+                "model": "Player_Three",
+                "outfit": 4
+            },
+            {
+                "cost": 50,
+                "enabled": true,
+                "model": "Player_Three",
+                "outfit": 7
+            },
+            {
+                "cost": 50,
+                "enabled": true,
+                "model": "Player_Three",
+                "outfit": 10
+            },
+            {
+                "cost": 50,
+                "enabled": true,
+                "model": "Player_Three",
+                "outfit": 11
+            },
+            {
+                "cost": 50,
+                "enabled": true,
+                "model": "Player_Three",
+                "outfit": 15
+            },
+            {
+                "cost": 50,
+                "enabled": true,
+                "model": "Player_Three",
+                "outfit": 19
+            },
+            {
+                "cost": 75,
+                "enabled": true,
+                "model": "Player_Three",
+                "outfit": 24
+            },
+            {
+                "cost": 50,
+                "enabled": true,
+                "model": "Player_Three",
+                "outfit": 26
+            },
+            {
+                "cost": 1500,
+                "enabled": true,
+                "model": "Player_Three",
+                "outfit": 28
+            },
+            {
+                "cost": 150,
+                "enabled": true,
+                "model": "Player_Three",
+                "outfit": 29
+            },
+            {
+                "cost": 50,
+                "enabled": true,
+                "model": "Player_Three",
+                "outfit": 32
+            },
+            {
+                "cost": 50,
+                "enabled": true,
+                "model": "mp_male",
+                "outfit": 0
+            },
+            {
+                "cost": 250,
+                "enabled": true,
+                "model": "mp_male",
+                "outfit": 1
+            },
+            {
+                "cost": 50,
+                "enabled": true,
+                "model": "mp_male",
+                "outfit": 2
+            },
+            {
+                "cost": 50,
+                "enabled": true,
+                "model": "mp_male",
+                "outfit": 4
+            },
+            {
+                "cost": 150,
+                "enabled": true,
+                "model": "mp_male",
+                "outfit": 5
+            },
+            {
+                "cost": 250,
+                "enabled": true,
+                "model": "mp_male",
+                "outfit": 6
+            },
+            {
+                "cost": 250,
+                "enabled": true,
+                "model": "mp_male",
+                "outfit": 7
+            },
+            {
+                "cost": 50,
+                "enabled": true,
+                "model": "mp_male",
+                "outfit": 8
+            },
+            {
+                "cost": 50,
+                "enabled": true,
+                "model": "mp_male",
+                "outfit": 9
+            },
+            {
+                "cost": 50,
+                "enabled": true,
+                "model": "mp_male",
+                "outfit": 10
+            },
+            {
+                "cost": 50,
+                "enabled": true,
+                "model": "mp_male",
+                "outfit": 11
+            },
+            {
+                "cost": 50,
+                "enabled": true,
+                "model": "mp_male",
+                "outfit": 12
+            },
+            {
+                "cost": 50,
+                "enabled": true,
+                "model": "mp_male",
+                "outfit": 13
+            },
+            {
+                "cost": 50,
+                "enabled": true,
+                "model": "mp_male",
+                "outfit": 14
+            },
+            {
+                "cost": 75,
+                "enabled": true,
+                "model": "mp_male",
+                "outfit": 15
+            },
+            {
+                "cost": 50,
+                "enabled": true,
+                "model": "mp_male",
+                "outfit": 19
+            },
+            {
+                "cost": 75,
+                "enabled": true,
+                "model": "mp_male",
+                "outfit": 20
+            },
+            {
+                "cost": 50,
+                "enabled": true,
+                "model": "mp_male",
+                "outfit": 21
+            },
+            {
+                "cost": 50,
+                "enabled": true,
+                "model": "mp_male",
+                "outfit": 22
+            },
+            {
+                "cost": 50,
+                "enabled": true,
+                "model": "mp_male",
+                "outfit": 23
+            },
+            {
+                "cost": 100,
+                "enabled": true,
+                "model": "mp_male",
+                "outfit": 24
+            },
+            {
+                "cost": 50,
+                "enabled": true,
+                "model": "mp_male",
+                "outfit": 25
+            },
+            {
+                "cost": 75,
+                "enabled": true,
+                "model": "mp_male",
+                "outfit": 26
+            },
+            {
+                "cost": 50,
+                "enabled": true,
+                "model": "mp_male",
+                "outfit": 27
+            },
+            {
+                "cost": 75,
+                "enabled": true,
+                "model": "mp_male",
+                "outfit": 28
+            },
+            {
+                "cost": 75,
+                "enabled": true,
+                "model": "mp_male",
+                "outfit": 29
+            },
+            {
+                "cost": 50,
+                "enabled": true,
+                "model": "mp_male",
+                "outfit": 30
+            },
+            {
+                "cost": 50,
+                "enabled": true,
+                "model": "mp_male",
+                "outfit": 31
+            },
+            {
+                "cost": 50,
+                "enabled": true,
+                "model": "mp_male",
+                "outfit": 32
+            },
+            {
+                "cost": 50,
+                "enabled": true,
+                "model": "mp_male",
+                "outfit": 33
+            },
+            {
+                "cost": 50,
+                "enabled": true,
+                "model": "mp_male",
+                "outfit": 34
+            },
+            {
+                "cost": 50,
+                "enabled": true,
+                "model": "mp_male",
+                "outfit": 35
+            },
+            {
+                "cost": 150,
+                "enabled": true,
+                "model": "mp_male",
+                "outfit": 36
+            },
+            {
+                "cost": 100,
+                "enabled": true,
+                "model": "mp_male",
+                "outfit": 37
+            },
+            {
+                "cost": 100,
+                "enabled": true,
+                "model": "mp_male",
+                "outfit": 38
+            },
+            {
+                "cost": 50,
+                "enabled": true,
+                "model": "mp_male",
+                "outfit": 39
+            },
+            {
+                "cost": 250,
+                "enabled": true,
+                "model": "mp_female",
+                "outfit": 1
+            },
+            {
+                "cost": 50,
+                "enabled": true,
+                "model": "mp_female",
+                "outfit": 2
+            },
+            {
+                "cost": 75,
+                "enabled": true,
+                "model": "mp_female",
+                "outfit": 4
+            },
+            {
+                "cost": 150,
+                "enabled": true,
+                "model": "mp_female",
+                "outfit": 5
+            },
+            {
+                "cost": 250,
+                "enabled": true,
+                "model": "mp_female",
+                "outfit": 6
+            },
+            {
+                "cost": 250,
+                "enabled": true,
+                "model": "mp_female",
+                "outfit": 7
+            },
+            {
+                "cost": 50,
+                "enabled": true,
+                "model": "mp_female",
+                "outfit": 8
+            },
+            {
+                "cost": 50,
+                "enabled": true,
+                "model": "mp_female",
+                "outfit": 9
+            },
+            {
+                "cost": 50,
+                "enabled": true,
+                "model": "mp_female",
+                "outfit": 10
+            },
+            {
+                "cost": 50,
+                "enabled": true,
+                "model": "mp_female",
+                "outfit": 11
+            },
+            {
+                "cost": 50,
+                "enabled": true,
+                "model": "mp_female",
+                "outfit": 12
+            },
+            {
+                "cost": 50,
+                "enabled": true,
+                "model": "mp_female",
+                "outfit": 13
+            },
+            {
+                "cost": 50,
+                "enabled": true,
+                "model": "mp_female",
+                "outfit": 14
+            },
+            {
+                "cost": 100,
+                "enabled": true,
+                "model": "mp_female",
+                "outfit": 15
+            }
+        ]
+    }
+}

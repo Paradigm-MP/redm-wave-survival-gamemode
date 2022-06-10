@@ -1,0 +1,37 @@
+Version 165 32
+{
+	Shaders
+	{
+		glass_emissive.sps
+		{
+			BumpSampler powerup_x2\2x_texture.otx
+			DiffuseSampler powerup_x2\2x_texture.otx
+			EnvironmentSampler *NULL*
+			Bumpiness 0.0000000
+			EmissiveMultiplier 1.0000000
+			ReflectivePower 0.4500000
+			SpecularFalloffMult 100.0000000
+			SpecularFresnel 0.9700000
+			SpecularIntensityMult 0.1250000
+			UseTessellation 0.0000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		High 9998.0
+		{
+			powerup_x2\x2.mesh 0
+		}
+		Med 9998.0
+		Low 9998.0
+		Vlow 9998.0
+		AABBMin 0.3619447 -0.2731650 0.0000000
+		AABBMax 0.3889693 0.1753350 0.3071582
+		Radius 0.272134
+		Center 0.3754570 -0.0489150 0.1535791
+	}
+	Light null
+	Bound null
+	Joints null
+}

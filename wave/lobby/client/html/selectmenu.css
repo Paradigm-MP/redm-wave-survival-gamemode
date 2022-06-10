@@ -1,0 +1,67 @@
+
+
+  /*Styling Selectbox*/
+.dropdown *
+{
+      text-align: center;
+      font-size: 20px;
+}
+
+  .dropdown {
+    width: 40%;
+    text-align: center;
+    display: inline-block;
+    height: fit-content;
+    font-family: "Agency Bold", 'Courier New', Courier, monospace;
+    transition: all .1s cubic-bezier(.69,0,.25,1);
+    position: relative;
+  }
+  .dropdown .select {
+      cursor: pointer;
+      display: block;
+      background: rgba(0, 0, 0, 0.5);
+      border: 2px solid lightgray;
+      padding: 10px;
+      margin-left: 4px;
+  }
+  .dropdown .select:hover
+  {
+    background: rgba(255, 255, 255, 0.1);
+  }
+  .dropdown:hover {
+      box-shadow: 0 0 4px rgb(204, 204, 204)
+  }
+  .dropdown.active:hover,
+  .dropdown.active {
+      background-color: rgba(0, 0, 0, 0.5);
+  }
+  .dropdown .dropdown-menu {
+      position: absolute;
+      width: 100%;
+      left: 0;
+      text-align: center;
+      border: 2px solid lightgray;
+      background: rgba(0, 0, 0, 0.5);
+      overflow: hidden;
+      margin-top: -1px;
+      display: none;
+      overflow-y: auto;
+      max-height: 100px;
+      z-index: 9
+  }
+  .dropdown .dropdown-menu li {
+      padding: 10px;
+      text-align: center;
+      transition: all .1s cubic-bezier(.69,0,.25,1);
+      cursor: pointer
+  } 
+  .dropdown .dropdown-menu {
+      padding: 0;
+      list-style: none
+  }
+  .dropdown .dropdown-menu li:hover {
+      background-color: rgba(255, 255, 255, 0.1);
+  }
+  .dropdown .dropdown-menu li:active {
+      background-color: rgba(255, 255, 255, 0.1);
+  }

@@ -1,0 +1,11 @@
+prop_ld_jail_door - good jail door with bars
+prop_billboard_09wall - huge billboard wall thing
+prop_const_fence01a - good wooden wall
+prop_rock_1_a - good big rocks for blocking places
+prop_bh1_03_gate_l - fancy gate door
+prop_cs_gravyard_gate_l - spooky gate
+prop_facgate_01 - big chainlink fence
+prop_gate_airport_01 - big chainlink fence with stop signs
+prop_cons_plank - good plank for barriers
+prop_const_fence01b - zombie spawn area walls
+prop_map_door_01 - DOOR USED FOR ZOMBIE SPAWNS

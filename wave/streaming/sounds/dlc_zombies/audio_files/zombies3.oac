@@ -1,0 +1,552 @@
+Version 1 11
+{
+	IsStream False
+	DescriptorsInOrder False
+	Entries
+	{
+        WaveTrack zombie32
+        {
+            Compression ADPCM
+            Headroom 161
+            LoopPoint -1
+            LoopBegin 0
+            LoopEnd 0
+            PlayBegin 0
+            PlayEnd 0
+            Wave zombies\zombie32.wav
+            AnimClip null
+            Events null
+            UNKNOWN_23097A2B null
+            UNKNOWN_E787895A null
+            UNKNOWN_252C20D9 null
+        }
+        WaveTrack zombie33
+        {
+            Compression ADPCM
+            Headroom 161
+            LoopPoint -1
+            LoopBegin 0
+            LoopEnd 0
+            PlayBegin 0
+            PlayEnd 0
+            Wave zombies\zombie33.wav
+            AnimClip null
+            Events null
+            UNKNOWN_23097A2B null
+            UNKNOWN_E787895A null
+            UNKNOWN_252C20D9 null
+        }
+        WaveTrack zombie34
+        {
+            Compression ADPCM
+            Headroom 161
+            LoopPoint -1
+            LoopBegin 0
+            LoopEnd 0
+            PlayBegin 0
+            PlayEnd 0
+            Wave zombies\zombie34.wav
+            AnimClip null
+            Events null
+            UNKNOWN_23097A2B null
+            UNKNOWN_E787895A null
+            UNKNOWN_252C20D9 null
+        }
+        WaveTrack zombie35
+        {
+            Compression ADPCM
+            Headroom 161
+            LoopPoint -1
+            LoopBegin 0
+            LoopEnd 0
+            PlayBegin 0
+            PlayEnd 0
+            Wave zombies\zombie35.wav
+            AnimClip null
+            Events null
+            UNKNOWN_23097A2B null
+            UNKNOWN_E787895A null
+            UNKNOWN_252C20D9 null
+        }
+        WaveTrack zombie36
+        {
+            Compression ADPCM
+            Headroom 161
+            LoopPoint -1
+            LoopBegin 0
+            LoopEnd 0
+            PlayBegin 0
+            PlayEnd 0
+            Wave zombies\zombie36.wav
+            AnimClip null
+            Events null
+            UNKNOWN_23097A2B null
+            UNKNOWN_E787895A null
+            UNKNOWN_252C20D9 null
+        }
+        WaveTrack zombie37
+        {
+            Compression ADPCM
+            Headroom 161
+            LoopPoint -1
+            LoopBegin 0
+            LoopEnd 0
+            PlayBegin 0
+            PlayEnd 0
+            Wave zombies\zombie37.wav
+            AnimClip null
+            Events null
+            UNKNOWN_23097A2B null
+            UNKNOWN_E787895A null
+            UNKNOWN_252C20D9 null
+        }
+        WaveTrack zombie38
+        {
+            Compression ADPCM
+            Headroom 161
+            LoopPoint -1
+            LoopBegin 0
+            LoopEnd 0
+            PlayBegin 0
+            PlayEnd 0
+            Wave zombies\zombie38.wav
+            AnimClip null
+            Events null
+            UNKNOWN_23097A2B null
+            UNKNOWN_E787895A null
+            UNKNOWN_252C20D9 null
+        }
+        WaveTrack death1
+        {
+            Compression ADPCM
+            Headroom 161
+            LoopPoint -1
+            LoopBegin 0
+            LoopEnd 0
+            PlayBegin 0
+            PlayEnd 0
+            Wave zombies\death1.wav
+            AnimClip null
+            Events null
+            UNKNOWN_23097A2B null
+            UNKNOWN_E787895A null
+            UNKNOWN_252C20D9 null
+        }
+        WaveTrack death2
+        {
+            Compression ADPCM
+            Headroom 161
+            LoopPoint -1
+            LoopBegin 0
+            LoopEnd 0
+            PlayBegin 0
+            PlayEnd 0
+            Wave zombies\death2.wav
+            AnimClip null
+            Events null
+            UNKNOWN_23097A2B null
+            UNKNOWN_E787895A null
+            UNKNOWN_252C20D9 null
+        }
+        WaveTrack death3
+        {
+            Compression ADPCM
+            Headroom 161
+            LoopPoint -1
+            LoopBegin 0
+            LoopEnd 0
+            PlayBegin 0
+            PlayEnd 0
+            Wave zombies\death3.wav
+            AnimClip null
+            Events null
+            UNKNOWN_23097A2B null
+            UNKNOWN_E787895A null
+            UNKNOWN_252C20D9 null
+        }
+        WaveTrack death4
+        {
+            Compression ADPCM
+            Headroom 161
+            LoopPoint -1
+            LoopBegin 0
+            LoopEnd 0
+            PlayBegin 0
+            PlayEnd 0
+            Wave zombies\death4.wav
+            AnimClip null
+            Events null
+            UNKNOWN_23097A2B null
+            UNKNOWN_E787895A null
+            UNKNOWN_252C20D9 null
+        }
+        WaveTrack death5
+        {
+            Compression ADPCM
+            Headroom 161
+            LoopPoint -1
+            LoopBegin 0
+            LoopEnd 0
+            PlayBegin 0
+            PlayEnd 0
+            Wave zombies\death5.wav
+            AnimClip null
+            Events null
+            UNKNOWN_23097A2B null
+            UNKNOWN_E787895A null
+            UNKNOWN_252C20D9 null
+        }
+        WaveTrack death6
+        {
+            Compression ADPCM
+            Headroom 161
+            LoopPoint -1
+            LoopBegin 0
+            LoopEnd 0
+            PlayBegin 0
+            PlayEnd 0
+            Wave zombies\death6.wav
+            AnimClip null
+            Events null
+            UNKNOWN_23097A2B null
+            UNKNOWN_E787895A null
+            UNKNOWN_252C20D9 null
+        }
+        WaveTrack death7
+        {
+            Compression ADPCM
+            Headroom 161
+            LoopPoint -1
+            LoopBegin 0
+            LoopEnd 0
+            PlayBegin 0
+            PlayEnd 0
+            Wave zombies\death7.wav
+            AnimClip null
+            Events null
+            UNKNOWN_23097A2B null
+            UNKNOWN_E787895A null
+            UNKNOWN_252C20D9 null
+        }
+        WaveTrack death8
+        {
+            Compression ADPCM
+            Headroom 161
+            LoopPoint -1
+            LoopBegin 0
+            LoopEnd 0
+            PlayBegin 0
+            PlayEnd 0
+            Wave zombies\death8.wav
+            AnimClip null
+            Events null
+            UNKNOWN_23097A2B null
+            UNKNOWN_E787895A null
+            UNKNOWN_252C20D9 null
+        }
+        WaveTrack death9
+        {
+            Compression ADPCM
+            Headroom 161
+            LoopPoint -1
+            LoopBegin 0
+            LoopEnd 0
+            PlayBegin 0
+            PlayEnd 0
+            Wave zombies\death9.wav
+            AnimClip null
+            Events null
+            UNKNOWN_23097A2B null
+            UNKNOWN_E787895A null
+            UNKNOWN_252C20D9 null
+        }
+        WaveTrack death10
+        {
+            Compression ADPCM
+            Headroom 161
+            LoopPoint -1
+            LoopBegin 0
+            LoopEnd 0
+            PlayBegin 0
+            PlayEnd 0
+            Wave zombies\death10.wav
+            AnimClip null
+            Events null
+            UNKNOWN_23097A2B null
+            UNKNOWN_E787895A null
+            UNKNOWN_252C20D9 null
+        }
+        WaveTrack death11
+        {
+            Compression ADPCM
+            Headroom 161
+            LoopPoint -1
+            LoopBegin 0
+            LoopEnd 0
+            PlayBegin 0
+            PlayEnd 0
+            Wave zombies\death11.wav
+            AnimClip null
+            Events null
+            UNKNOWN_23097A2B null
+            UNKNOWN_E787895A null
+            UNKNOWN_252C20D9 null
+        }
+        WaveTrack death12
+        {
+            Compression ADPCM
+            Headroom 161
+            LoopPoint -1
+            LoopBegin 0
+            LoopEnd 0
+            PlayBegin 0
+            PlayEnd 0
+            Wave zombies\death12.wav
+            AnimClip null
+            Events null
+            UNKNOWN_23097A2B null
+            UNKNOWN_E787895A null
+            UNKNOWN_252C20D9 null
+        }
+        WaveTrack hit1
+        {
+            Compression ADPCM
+            Headroom 161
+            LoopPoint -1
+            LoopBegin 0
+            LoopEnd 0
+            PlayBegin 0
+            PlayEnd 0
+            Wave zombies\hit1.wav
+            AnimClip null
+            Events null
+            UNKNOWN_23097A2B null
+            UNKNOWN_E787895A null
+            UNKNOWN_252C20D9 null
+        }
+        WaveTrack hit2
+        {
+            Compression ADPCM
+            Headroom 161
+            LoopPoint -1
+            LoopBegin 0
+            LoopEnd 0
+            PlayBegin 0
+            PlayEnd 0
+            Wave zombies\hit2.wav
+            AnimClip null
+            Events null
+            UNKNOWN_23097A2B null
+            UNKNOWN_E787895A null
+            UNKNOWN_252C20D9 null
+        }
+        WaveTrack hit3
+        {
+            Compression ADPCM
+            Headroom 161
+            LoopPoint -1
+            LoopBegin 0
+            LoopEnd 0
+            PlayBegin 0
+            PlayEnd 0
+            Wave zombies\hit3.wav
+            AnimClip null
+            Events null
+            UNKNOWN_23097A2B null
+            UNKNOWN_E787895A null
+            UNKNOWN_252C20D9 null
+        }
+        WaveTrack hit4
+        {
+            Compression ADPCM
+            Headroom 161
+            LoopPoint -1
+            LoopBegin 0
+            LoopEnd 0
+            PlayBegin 0
+            PlayEnd 0
+            Wave zombies\hit4.wav
+            AnimClip null
+            Events null
+            UNKNOWN_23097A2B null
+            UNKNOWN_E787895A null
+            UNKNOWN_252C20D9 null
+        }
+        WaveTrack hit5
+        {
+            Compression ADPCM
+            Headroom 161
+            LoopPoint -1
+            LoopBegin 0
+            LoopEnd 0
+            PlayBegin 0
+            PlayEnd 0
+            Wave zombies\hit5.wav
+            AnimClip null
+            Events null
+            UNKNOWN_23097A2B null
+            UNKNOWN_E787895A null
+            UNKNOWN_252C20D9 null
+        }
+        WaveTrack hit6
+        {
+            Compression ADPCM
+            Headroom 161
+            LoopPoint -1
+            LoopBegin 0
+            LoopEnd 0
+            PlayBegin 0
+            PlayEnd 0
+            Wave zombies\hit6.wav
+            AnimClip null
+            Events null
+            UNKNOWN_23097A2B null
+            UNKNOWN_E787895A null
+            UNKNOWN_252C20D9 null
+        }
+        WaveTrack hit7
+        {
+            Compression ADPCM
+            Headroom 161
+            LoopPoint -1
+            LoopBegin 0
+            LoopEnd 0
+            PlayBegin 0
+            PlayEnd 0
+            Wave zombies\hit7.wav
+            AnimClip null
+            Events null
+            UNKNOWN_23097A2B null
+            UNKNOWN_E787895A null
+            UNKNOWN_252C20D9 null
+        }
+        WaveTrack hit8
+        {
+            Compression ADPCM
+            Headroom 161
+            LoopPoint -1
+            LoopBegin 0
+            LoopEnd 0
+            PlayBegin 0
+            PlayEnd 0
+            Wave zombies\hit8.wav
+            AnimClip null
+            Events null
+            UNKNOWN_23097A2B null
+            UNKNOWN_E787895A null
+            UNKNOWN_252C20D9 null
+        }
+        WaveTrack hit9
+        {
+            Compression ADPCM
+            Headroom 161
+            LoopPoint -1
+            LoopBegin 0
+            LoopEnd 0
+            PlayBegin 0
+            PlayEnd 0
+            Wave zombies\hit9.wav
+            AnimClip null
+            Events null
+            UNKNOWN_23097A2B null
+            UNKNOWN_E787895A null
+            UNKNOWN_252C20D9 null
+        }
+        WaveTrack hit10
+        {
+            Compression ADPCM
+            Headroom 161
+            LoopPoint -1
+            LoopBegin 0
+            LoopEnd 0
+            PlayBegin 0
+            PlayEnd 0
+            Wave zombies\hit10.wav
+            AnimClip null
+            Events null
+            UNKNOWN_23097A2B null
+            UNKNOWN_E787895A null
+            UNKNOWN_252C20D9 null
+        }
+        WaveTrack hit11
+        {
+            Compression ADPCM
+            Headroom 161
+            LoopPoint -1
+            LoopBegin 0
+            LoopEnd 0
+            PlayBegin 0
+            PlayEnd 0
+            Wave zombies\hit11.wav
+            AnimClip null
+            Events null
+            UNKNOWN_23097A2B null
+            UNKNOWN_E787895A null
+            UNKNOWN_252C20D9 null
+        }
+        WaveTrack hit12
+        {
+            Compression ADPCM
+            Headroom 161
+            LoopPoint -1
+            LoopBegin 0
+            LoopEnd 0
+            PlayBegin 0
+            PlayEnd 0
+            Wave zombies\hit12.wav
+            AnimClip null
+            Events null
+            UNKNOWN_23097A2B null
+            UNKNOWN_E787895A null
+            UNKNOWN_252C20D9 null
+        }
+        WaveTrack hit13
+        {
+            Compression ADPCM
+            Headroom 161
+            LoopPoint -1
+            LoopBegin 0
+            LoopEnd 0
+            PlayBegin 0
+            PlayEnd 0
+            Wave zombies\hit13.wav
+            AnimClip null
+            Events null
+            UNKNOWN_23097A2B null
+            UNKNOWN_E787895A null
+            UNKNOWN_252C20D9 null
+        }
+        WaveTrack hit14
+        {
+            Compression ADPCM
+            Headroom 161
+            LoopPoint -1
+            LoopBegin 0
+            LoopEnd 0
+            PlayBegin 0
+            PlayEnd 0
+            Wave zombies\hit14.wav
+            AnimClip null
+            Events null
+            UNKNOWN_23097A2B null
+            UNKNOWN_E787895A null
+            UNKNOWN_252C20D9 null
+        }
+        WaveTrack hit15
+        {
+            Compression ADPCM
+            Headroom 161
+            LoopPoint -1
+            LoopBegin 0
+            LoopEnd 0
+            PlayBegin 0
+            PlayEnd 0
+            Wave zombies\hit15.wav
+            AnimClip null
+            Events null
+            UNKNOWN_23097A2B null
+            UNKNOWN_E787895A null
+            UNKNOWN_252C20D9 null
+        }
+    }
+}

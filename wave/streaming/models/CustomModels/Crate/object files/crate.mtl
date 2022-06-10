@@ -1,0 +1,14 @@
+# Blender MTL File: 'crate.blend'
+# Material Count: 1
+
+newmtl Material.001
+Ns 94.117647
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.250000 0.250000 0.250000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Bump create base take 2 template normal.png
+map_Kd create base take 2 template.png

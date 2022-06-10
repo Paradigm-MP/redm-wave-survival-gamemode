@@ -1,0 +1,504 @@
+@font-face 
+{
+    font-family: "Agency Bold";
+    src: url("../../../../ui/fonts/Kirsty.ttf");
+}
+
+@font-face 
+{
+    font-family: "Agency FBold";
+    src: url("../../../../ui/fonts/KirstyB.ttf");
+}
+
+@font-face 
+{
+    font-family: "Main Titles";
+    src: url("../../../../../ui/fonts/MainTitles.ttf");
+}
+
+*
+{
+    user-select: none;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+    outline: none;
+    font-family: "Agency Bold", 'Courier New', Courier, monospace;
+}
+
+div.points-container
+{
+    font-family: "Agency Bold", 'Courier New', Courier, monospace;
+    position: fixed;
+    top: 15%;
+    right: 2vw;
+}
+
+div.points-container *
+{
+    font-size: 2vw;
+    font-weight: bold;
+    margin: 10px;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5), 0px 0px 4px rgba(0, 0, 0, 0.5), 0px 0px 8px rgba(0, 0, 0, 0.5);
+}
+
+.easy
+{
+    color: #1DD614;
+}
+
+.medium
+{
+    color: rgb(235, 220, 19);
+}
+
+.hard
+{
+    color: #EE8117;
+}
+
+.gunslinger
+{
+    color: rgb(223, 9, 9);
+}
+
+div.round-container
+{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin: 2vw;
+    text-align: center;
+}
+
+div.round-container div.round
+{
+    display: inline-block;
+    color: rgb(105, 78, 38);
+    font-size: 6vw;
+    font-weight: bold;
+    font-family: "Agency Bold", 'Courier New', Courier, monospace;
+    text-shadow: 0 0 10px rgb(92, 71, 40), 0 0 20px rgb(77, 57, 27);
+}
+
+
+div.round-container div.difficulty
+{
+    font-family: "Agency Bold", 'Courier New', Courier, monospace;
+    font-size: 1.25vw;
+    margin: 10px;
+    text-transform: uppercase;
+    color: rgb(206, 183, 148);
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5), 0px 0px 4px rgba(0, 0, 0, 0.5), 0px 0px 8px rgba(0, 0, 0, 0.5);
+}
+
+div.boss-container
+{
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 20px;
+    text-align: center;
+}
+
+div.boss-container div.boss-title
+{
+    font-family: "Agency Bold", 'Courier New', Courier, monospace;
+    font-size: 4vw;
+    margin: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 0px 0px 2px black, 0px 0px 4px black, 0px 0px 8px black, 0px 0px 16px black;
+}
+
+div.boss-container div.boss-healthbar
+{
+    height: 1vw;
+    width: 60vw;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+div.boss-container div.boss-healthbar div.boss-healthbar-inner
+{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: width 0.2s ease-in-out;
+}
+
+div.survive-until-container
+{
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 10vw;
+    height: 10vw;
+    margin: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    border-radius: 500px;
+    box-shadow: 0 0 16px 4px rgba(0, 0, 0, 0.5);
+}
+
+div.survive-until-container div.survive-until-title
+{
+    position: absolute;
+    top: 1vw;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: "Agency Bold", 'Courier New', Courier, monospace;
+    font-size: 1vw;
+    text-transform: uppercase;
+    color: rgba(220, 220, 220, 1);
+    text-align: center;
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5), 0px 0px 4px rgba(0, 0, 0, 0.5), 0px 0px 8px rgba(0, 0, 0, 0.5);
+}
+
+div.survive-until-container div.survive-until-time
+{
+    position: absolute;
+    top: 5vw;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Agency Bold", 'Courier New', Courier, monospace;
+    font-size: 3vw;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5), 0px 0px 4px rgba(0, 0, 0, 0.5), 0px 0px 8px rgba(0, 0, 0, 0.5);
+}
+
+div.survive-until-container svg.progress
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: rotate(-90deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.survive-until-container svg.progress circle
+{
+    cx: 50%;
+    cy: 50%;
+    r: 48%;
+    fill: none;
+    stroke-width: 8px;
+}
+
+div.survive-until-container svg.progress circle.background
+{
+    stroke: rgba(0, 0, 0, 0.5);
+}
+
+div.survive-until-container svg.progress circle.fill
+{
+    stroke: white;
+    stroke-dasharray: 314%; /* --- 2 * pi * r --- */
+    stroke-dashoffset: 0%; /* --- 157 * (100-percent) --- */
+    transition: stroke-dashoffset 0.5s ease-in-out;
+}
+
+div.out-of-bounds-container
+{
+    position: fixed;
+    left: 50%;
+    top: 20vh;
+    transform: translate(-50%, -50%);
+    font-size: 3vw;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Agency Bold", 'Courier New', Courier, monospace;
+    color: rgb(199, 51, 31);
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5), 0px 0px 4px rgba(0, 0, 0, 0.5), 0px 0px 8px rgba(0, 0, 0, 0.5);
+    animation: 1.5s ease-in-out flash infinite;
+}
+
+@keyframes flash
+{
+    0% {opacity: 0;}
+    30% {opacity: 1;}
+    70% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+div.big-round-container
+{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div.big-round-container *
+{
+    font-size: 6vw;
+    font-weight: bold;
+    font-family: "Agency Bold", 'Courier New', Courier, monospace;
+    letter-spacing: 1vw;
+    color: rgb(105, 78, 38);
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5), 0px 0px 4px rgba(0, 0, 0, 0.5), 0px 0px 8px rgba(0, 0, 0, 0.5);
+}
+
+div.spectating-container
+{
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 10px;
+    font-size: 2.5vw;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "Agency Bold", 'Courier New', Courier, monospace;
+    color: rgb(116, 83, 34);
+    text-shadow: none;
+}
+
+div.cinematic-bars-top
+{
+    position: fixed;
+    top: -15vh;
+    left: 0;
+    width: 100%;
+    height: 15vh;
+    background-color: black;
+    z-index: 5;
+    transition: 2s ease-in-out all;
+}
+
+div.cinematic-bars-bottom
+{
+    position: fixed;
+    bottom: -15vh;
+    left: 0;
+    width: 100%;
+    height: 15vh;
+    background-color: black;
+    z-index: 5;
+    transition: 2s ease-in-out all;
+}
+
+div.icon
+{
+    position: fixed;
+    opacity: 0;
+    top: -50px;
+    left: -50px;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 2px solid black;
+    padding: 4px;
+    border-radius: 100px;
+    transition: 0.1s ease all;
+}
+
+img.icon
+{
+    width: 40px;
+    height: 40px;
+    z-index: -6;
+}
+
+div.icon.cross
+{
+    background: red;
+}
+
+div.healthbar 
+{
+    position: absolute;
+    bottom: -10px;
+    width: 40px;
+    height: 4px;
+    background-color: black;
+    border: 1px solid white;
+}
+
+div.healthbar div.healthbar-inner
+{
+    width: 75%;
+    height: 100%;
+    background-color: red;
+    transition: 0.2s linear all;
+}
+
+div.player-healthbar
+{
+    position: fixed;
+    bottom: 20vh;
+    right: 2vw;
+    transform: translateX(-50%);
+    width: 1vw;
+    height: 40vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+div.player-healthbar div.player-healthbar-inner
+{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 75%;
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: 0.2s ease-in-out width;
+}
+
+div.powerups-container
+{
+    position: fixed;
+    right: 0;
+    top: 20%;
+    margin: 10px;
+    width: fit-content;
+    max-width: 13vw;
+    height: fit-content;
+}
+
+div.powerups-container div.powerup
+{
+    float: right;
+    position: relative;
+    display: inline-block;
+    margin: 4px;
+    width: 54px;
+    height: 54px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 100px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5), 0 0 16px rgba(0, 0, 0, 0.5);
+}
+
+div.powerups-container div.powerup div.text
+{
+    font-family: "Agency Bold", 'Courier New', Courier, monospace;
+    background-color: rgba(0, 0, 0, 0.75);
+    border: 1px solid white;
+    padding: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+div.powerups-container div.powerup div.powerup-key
+{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 40%);
+}
+
+div.powerups-container div.powerup div.powerup-charges
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(25%, -25%);
+}
+
+div.powerup svg.progress
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: rotate(-90deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.powerup svg.progress circle
+{
+    cx: 50%;
+    cy: 50%;
+    r: 46%;
+    fill: none;
+    stroke-width: 4px;
+}
+
+div.powerup svg.progress circle.background
+{
+    stroke: rgba(0, 0, 0, 0.5);
+}
+
+div.powerup svg.progress circle.fill
+{
+    stroke: white;
+    stroke-dasharray: 314%; /* --- 2 * pi * r --- */
+    stroke-dashoffset: 0%; /* --- 157 * (100-percent) --- */
+    transition: stroke-dashoffset 0.5s ease-in-out;
+}
+
+div.powerups-container img.powerup-img
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    height: 70%;
+}
+
+@keyframes show-powerup /* 0.5s */
+{
+    0% {transform: translate(-50%, -50%) scale(0);}
+    90% {transform: translate(-50%, -50%) scale(1.1);}
+    100% {transform: translate(-50%, -50%) scale(1);}
+}
+
+@keyframes hide-powerup /* 0.5s */
+{
+    0% {transform: translate(-50%, -50%) scale(1);}
+    10% {transform: translate(-50%, -50%) scale(1.1);}
+    100% {transform: translate(-50%, -50%) scale(0);}
+}
+
+@keyframes powerup-grow-shrink /* 1s */
+{
+    0% {transform: translate(-50%, -50%) scale(1);}
+    50% {transform: translate(-50%, -50%) scale(1.1);}
+    100% {transform: translate(-50%, -50%) scale(1);}
+}
+
+div.powerup-activate-container
+{
+    position: fixed;
+    bottom: 10vh;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    width: 80%;
+    text-align: center;
+}
+
+
+div.powerup-activate-container div.powerup-activate-title
+{
+    font-size: 4vw;
+    font-weight: bold;
+    font-family: "Agency Bold", 'Courier New', Courier, monospace;
+    letter-spacing: 0.5vw;
+    color: white;
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5), 0px 0px 4px rgba(0, 0, 0, 0.5), 0px 0px 8px rgba(0, 0, 0, 0.5);
+}
+
+
+div.powerup-activate-container div.powerup-activate-subtitle
+{
+    font-size: 2vw;
+    margin-bottom: 10px;
+    font-family: "Agency Bold", 'Courier New', Courier, monospace;
+    letter-spacing: 0.5vw;
+    color: rgb(220, 220, 220);
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5), 0px 0px 4px rgba(0, 0, 0, 0.5), 0px 0px 8px rgba(0, 0, 0, 0.5);
+}
+

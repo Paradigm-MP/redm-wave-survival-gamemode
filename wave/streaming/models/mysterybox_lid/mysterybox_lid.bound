@@ -1,0 +1,2332 @@
+Version 43 31
+{
+	Type BoundComposite
+	AABBMin 0.0550808 -1.2640001 0.0990625
+	AABBMax 0.0640813 -1.1139915 0.5490881
+	Radius 0.237227
+	Centroid 0.0595810 -1.1889958 0.3240753
+	CG 0.0588827 -1.1891735 0.3240753
+	VertexColors null
+	MaterialColors null
+	ChildTransforms 1
+	{
+		Matrix 0
+		{
+			1.0000000 0.0000000 0.0000000
+			0.0000000 1.0000000 0.0000000
+			0.0000000 0.0000000 1.0000000
+			0.0000000 0.0000000 0.0000000
+		}
+	}
+	ChildFlags 1
+	{
+		Item
+		{
+			Flags1 MAP_ANIMAL MAP_COVER MAP_DYNAMIC MAP_VEHICLE MAP_WEAPON
+			Flags2 ANIMAL ANIMAL_RAGDOLL EXPLOSION FOLIAGE FORKLIFT_FORKS GLASS MAP_ANIMAL MAP_COVER MAP_DEEP_SURFACE MAP_DYNAMIC MAP_RIVER MAP_STAIRS MAP_VEHICLE MAP_WEAPON OBJECT OBJECT_ENV_CLOTH PED PICKUP PLANT PROJECTILE RAGDOLL SMOKE TEST_AI TEST_CAMERA TEST_SCRIPT TEST_VEHICLE_WHEEL TEST_WEAPON UNKNOWN UNSMASHED VEHICLE_BOX VEHICLE_BVH VEHICLE_NOT_BVH
+		}
+	}
+	Children 1
+	{
+		phBound
+		{
+			Type BoundBVH
+			AABBMin 0.0000000 -1.2640001 0.3180000
+			AABBMax 0.8660500 1.3341500 0.3699630
+			Radius 1.36959
+			Centroid 0.4330249 0.0350749 0.3439815
+			CG 0.4319990 0.0350749 0.3399495
+			Margin 0.005
+			GeometryCenter 0.4330249 0.0350749 0.3439815 0.0
+			Materials 1
+			{
+				Material 0
+				{
+					MaterialIndex 73
+					ProcId 0
+					RoomId 0
+					PedDensity 0
+					PolyFlags FORMATS_EMPTY_FLAGS
+					MaterialColorIndex 0
+				}
+			}
+			VertexColors null
+			MaterialColors null
+			Polygons 252
+			{
+				Tri 0
+				{
+					Vertices 0 1 2
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 1
+				{
+					Vertices 128 129 3
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 2
+				{
+					Vertices 4 5 6
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 3
+				{
+					Vertices 131 130 7
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 4
+				{
+					Vertices 133 132 8
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 5
+				{
+					Vertices 134 135 9
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 6
+				{
+					Vertices 137 136 10
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 7
+				{
+					Vertices 138 139 11
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 8
+				{
+					Vertices 140 12 141
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 9
+				{
+					Vertices 142 143 13
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 10
+				{
+					Vertices 144 145 14
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 11
+				{
+					Vertices 15 16 17
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 12
+				{
+					Vertices 146 147 18
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 13
+				{
+					Vertices 19 20 21
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 14
+				{
+					Vertices 149 148 22
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 15
+				{
+					Vertices 23 24 25
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 16
+				{
+					Vertices 152 151 150
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 17
+				{
+					Vertices 154 153 26
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 18
+				{
+					Vertices 157 156 155
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 19
+				{
+					Vertices 158 27 159
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 20
+				{
+					Vertices 160 161 28
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 21
+				{
+					Vertices 162 163 29
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 22
+				{
+					Vertices 164 30 165
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 23
+				{
+					Vertices 166 167 31
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 24
+				{
+					Vertices 168 170 169
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 25
+				{
+					Vertices 171 172 32
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 26
+				{
+					Vertices 174 175 173
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 27
+				{
+					Vertices 177 33 176
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 28
+				{
+					Vertices 178 179 34
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 29
+				{
+					Vertices 180 181 35
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 30
+				{
+					Vertices 183 182 36
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 31
+				{
+					Vertices 184 185 37
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 32
+				{
+					Vertices 187 186 38
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 33
+				{
+					Vertices 189 190 188
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 34
+				{
+					Vertices 191 192 39
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 35
+				{
+					Vertices 193 194 40
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 36
+				{
+					Vertices 196 41 195
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 37
+				{
+					Vertices 197 198 42
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 38
+				{
+					Vertices 199 201 200
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 39
+				{
+					Vertices 43 44 45
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 40
+				{
+					Vertices 202 46 203
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 41
+				{
+					Vertices 204 205 47
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 42
+				{
+					Vertices 206 207 48
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 43
+				{
+					Vertices 209 49 208
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 44
+				{
+					Vertices 210 211 50
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 45
+				{
+					Vertices 213 214 212
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 46
+				{
+					Vertices 215 216 51
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 47
+				{
+					Vertices 217 219 218
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 48
+				{
+					Vertices 52 53 220
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 49
+				{
+					Vertices 221 222 54
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 50
+				{
+					Vertices 223 224 55
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 51
+				{
+					Vertices 226 56 225
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 52
+				{
+					Vertices 227 228 57
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 53
+				{
+					Vertices 229 230 58
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 54
+				{
+					Vertices 232 59 231
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 55
+				{
+					Vertices 233 234 60
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 56
+				{
+					Vertices 235 236 61
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 57
+				{
+					Vertices 238 237 62
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 58
+				{
+					Vertices 241 239 240
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 59
+				{
+					Vertices 244 243 242
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 60
+				{
+					Vertices 245 246 63
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 61
+				{
+					Vertices 248 249 247
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 62
+				{
+					Vertices 251 250 64
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 63
+				{
+					Vertices 253 252 65
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 64
+				{
+					Vertices 254 66 67
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 65
+				{
+					Vertices 255 257 256
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 66
+				{
+					Vertices 258 259 68
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 67
+				{
+					Vertices 262 261 260
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 68
+				{
+					Vertices 69 70 263
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 69
+				{
+					Vertices 265 266 264
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 70
+				{
+					Vertices 268 267 269
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 71
+				{
+					Vertices 272 270 271
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 72
+				{
+					Vertices 275 273 274
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 73
+				{
+					Vertices 277 276 278
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 74
+				{
+					Vertices 279 280 71
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 75
+				{
+					Vertices 283 281 282
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 76
+				{
+					Vertices 286 285 284
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 77
+				{
+					Vertices 287 289 288
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 78
+				{
+					Vertices 290 292 291
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 79
+				{
+					Vertices 294 295 293
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 80
+				{
+					Vertices 297 296 72
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 81
+				{
+					Vertices 299 298 73
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 82
+				{
+					Vertices 302 301 300
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 83
+				{
+					Vertices 304 305 303
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 84
+				{
+					Vertices 74 307 306
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 85
+				{
+					Vertices 309 310 308
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 86
+				{
+					Vertices 313 311 312
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 87
+				{
+					Vertices 315 314 75
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 88
+				{
+					Vertices 318 317 316
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 89
+				{
+					Vertices 320 319 76
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 90
+				{
+					Vertices 323 321 322
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 91
+				{
+					Vertices 325 324 77
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 92
+				{
+					Vertices 328 326 327
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 93
+				{
+					Vertices 330 329 78
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 94
+				{
+					Vertices 333 331 332
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 95
+				{
+					Vertices 335 334 79
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 96
+				{
+					Vertices 338 337 336
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 97
+				{
+					Vertices 340 339 80
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 98
+				{
+					Vertices 343 342 341
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 99
+				{
+					Vertices 345 344 81
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 100
+				{
+					Vertices 348 347 346
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 101
+				{
+					Vertices 350 349 82
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 102
+				{
+					Vertices 353 352 351
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 103
+				{
+					Vertices 355 354 83
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 104
+				{
+					Vertices 358 357 356
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 105
+				{
+					Vertices 360 359 84
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 106
+				{
+					Vertices 363 362 361
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 107
+				{
+					Vertices 365 364 85
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 108
+				{
+					Vertices 368 367 366
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 109
+				{
+					Vertices 370 369 86
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 110
+				{
+					Vertices 373 372 371
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 111
+				{
+					Vertices 375 374 87
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 112
+				{
+					Vertices 378 377 376
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 113
+				{
+					Vertices 380 379 88
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 114
+				{
+					Vertices 383 382 381
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 115
+				{
+					Vertices 385 384 89
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 116
+				{
+					Vertices 388 387 386
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 117
+				{
+					Vertices 390 389 90
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 118
+				{
+					Vertices 393 392 391
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 119
+				{
+					Vertices 395 394 91
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 120
+				{
+					Vertices 397 398 396
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 121
+				{
+					Vertices 399 401 400
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 122
+				{
+					Vertices 403 402 404
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 123
+				{
+					Vertices 407 405 406
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 124
+				{
+					Vertices 410 408 409
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 125
+				{
+					Vertices 411 412 413
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 126
+				{
+					Vertices 415 416 414
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 127
+				{
+					Vertices 417 418 419
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 128
+				{
+					Vertices 420 421 422
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 129
+				{
+					Vertices 423 424 425
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 130
+				{
+					Vertices 428 426 427
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 131
+				{
+					Vertices 431 429 430
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 132
+				{
+					Vertices 432 433 434
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 133
+				{
+					Vertices 435 436 437
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 134
+				{
+					Vertices 440 438 439
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 135
+				{
+					Vertices 443 441 442
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 136
+				{
+					Vertices 444 445 446
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 137
+				{
+					Vertices 449 447 448
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 138
+				{
+					Vertices 452 450 451
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 139
+				{
+					Vertices 455 453 454
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 140
+				{
+					Vertices 92 456 457
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 141
+				{
+					Vertices 459 458 93
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 142
+				{
+					Vertices 462 461 460
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 143
+				{
+					Vertices 464 463 94
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 144
+				{
+					Vertices 467 466 465
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 145
+				{
+					Vertices 469 468 95
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 146
+				{
+					Vertices 472 471 470
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 147
+				{
+					Vertices 474 473 96
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 148
+				{
+					Vertices 477 476 475
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 149
+				{
+					Vertices 479 478 97
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 150
+				{
+					Vertices 482 481 480
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 151
+				{
+					Vertices 484 483 98
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 152
+				{
+					Vertices 487 486 485
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 153
+				{
+					Vertices 489 488 99
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 154
+				{
+					Vertices 492 491 490
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 155
+				{
+					Vertices 494 493 100
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 156
+				{
+					Vertices 497 495 496
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 157
+				{
+					Vertices 499 498 101
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 158
+				{
+					Vertices 502 501 500
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 159
+				{
+					Vertices 504 503 102
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 160
+				{
+					Vertices 507 506 505
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 161
+				{
+					Vertices 509 508 103
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 162
+				{
+					Vertices 512 511 510
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 163
+				{
+					Vertices 514 513 104
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 164
+				{
+					Vertices 517 516 515
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 165
+				{
+					Vertices 519 518 105
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 166
+				{
+					Vertices 522 521 520
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 167
+				{
+					Vertices 524 523 106
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 168
+				{
+					Vertices 527 526 525
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 169
+				{
+					Vertices 529 528 107
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 170
+				{
+					Vertices 532 531 530
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 171
+				{
+					Vertices 534 533 108
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 172
+				{
+					Vertices 537 536 535
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 173
+				{
+					Vertices 539 538 109
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 174
+				{
+					Vertices 541 542 540
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 175
+				{
+					Vertices 543 545 544
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 176
+				{
+					Vertices 548 547 546
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 177
+				{
+					Vertices 550 551 549
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 178
+				{
+					Vertices 554 553 552
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 179
+				{
+					Vertices 555 556 557
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 180
+				{
+					Vertices 560 558 559
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 181
+				{
+					Vertices 563 561 562
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 182
+				{
+					Vertices 564 565 566
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 183
+				{
+					Vertices 567 568 569
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 184
+				{
+					Vertices 571 572 570
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 185
+				{
+					Vertices 573 574 575
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 186
+				{
+					Vertices 576 577 578
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 187
+				{
+					Vertices 579 580 581
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 188
+				{
+					Vertices 584 582 583
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 189
+				{
+					Vertices 587 585 586
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 190
+				{
+					Vertices 588 589 590
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 191
+				{
+					Vertices 593 591 592
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 192
+				{
+					Vertices 596 594 595
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 193
+				{
+					Vertices 597 598 599
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 194
+				{
+					Vertices 602 600 601
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 195
+				{
+					Vertices 605 603 604
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 196
+				{
+					Vertices 110 606 607
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 197
+				{
+					Vertices 609 608 111
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 198
+				{
+					Vertices 612 610 611
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 199
+				{
+					Vertices 614 613 112
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 200
+				{
+					Vertices 617 616 615
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 201
+				{
+					Vertices 619 618 113
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 202
+				{
+					Vertices 622 621 620
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 203
+				{
+					Vertices 624 623 114
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 204
+				{
+					Vertices 627 626 625
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 205
+				{
+					Vertices 629 628 115
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 206
+				{
+					Vertices 632 631 630
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 207
+				{
+					Vertices 634 633 116
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 208
+				{
+					Vertices 637 636 635
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 209
+				{
+					Vertices 639 638 117
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 210
+				{
+					Vertices 642 640 641
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 211
+				{
+					Vertices 644 643 118
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 212
+				{
+					Vertices 647 646 645
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 213
+				{
+					Vertices 649 648 119
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 214
+				{
+					Vertices 652 651 650
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 215
+				{
+					Vertices 654 653 120
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 216
+				{
+					Vertices 657 656 655
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 217
+				{
+					Vertices 659 658 121
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 218
+				{
+					Vertices 662 661 660
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 219
+				{
+					Vertices 664 663 122
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 220
+				{
+					Vertices 667 665 666
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 221
+				{
+					Vertices 669 668 123
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 222
+				{
+					Vertices 672 670 671
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 223
+				{
+					Vertices 674 673 124
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 224
+				{
+					Vertices 677 675 676
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 225
+				{
+					Vertices 679 678 125
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 226
+				{
+					Vertices 682 680 681
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 227
+				{
+					Vertices 684 683 126
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 228
+				{
+					Vertices 687 685 686
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 229
+				{
+					Vertices 689 688 127
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 230
+				{
+					Vertices 691 692 690
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 231
+				{
+					Vertices 694 695 693
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 232
+				{
+					Vertices 698 697 696
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 233
+				{
+					Vertices 699 701 700
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 234
+				{
+					Vertices 704 702 703
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 235
+				{
+					Vertices 707 705 706
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 236
+				{
+					Vertices 708 709 710
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 237
+				{
+					Vertices 713 711 712
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 238
+				{
+					Vertices 716 714 715
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 239
+				{
+					Vertices 719 717 718
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 240
+				{
+					Vertices 721 722 720
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 241
+				{
+					Vertices 723 724 725
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 242
+				{
+					Vertices 726 727 728
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 243
+				{
+					Vertices 730 731 729
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 244
+				{
+					Vertices 732 733 734
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 245
+				{
+					Vertices 735 736 737
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 246
+				{
+					Vertices 739 740 738
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 247
+				{
+					Vertices 741 742 743
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 248
+				{
+					Vertices 744 745 746
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 249
+				{
+					Vertices 748 749 747
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 250
+				{
+					Vertices 750 751 752
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 251
+				{
+					Vertices 753 754 755
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+			}
+			ComputePolyNeighbors True
+			Vertices 756
+			{
+				0.0680258 -0.0242132 0.0173210
+				0.0644551 -0.0178088 0.0173210
+				-0.4330250 -0.5629326 0.0173210
+				0.0726259 -0.0299234 0.0173210
+				0.0620163 0.0108938 0.0173210
+				0.0644551 0.0178089 0.0173210
+				-0.4330250 0.5629325 0.0173210
+				0.0781236 -0.0347754 0.0173210
+				-0.1238432 -0.6066617 0.0173210
+				0.0843611 -0.0386306 0.0173210
+				-0.1167482 -0.6082829 0.0173210
+				0.0911595 -0.0413778 0.0173210
+				0.0680258 0.0242133 0.0173210
+				0.0726259 0.0299236 0.0173210
+				-0.1238433 0.6066616 0.0173210
+				0.0983240 0.0429387 0.0173210
+				0.4330250 0.0866051 0.0173210
+				0.4330249 1.2990750 0.0173210
+				0.0911595 0.0413779 0.0173210
+				-0.1100249 -0.6880056 0.0173210
+				0.4330251 -1.2990750 0.0173210
+				-0.1038633 -0.6841324 0.0173210
+				-0.0984373 -0.6792820 0.0173210
+				-0.4330250 -0.7361425 0.0173210
+				-0.4330249 -1.2990750 0.0173210
+				-0.1238432 -0.6924132 0.0173210
+				-0.1167482 -0.6907922 0.0173210
+				-0.1100249 -0.6110693 0.0173210
+				-0.1038633 -0.6149426 0.0173210
+				-0.0984373 -0.6197931 0.0173210
+				0.0620163 -0.0108937 0.0173210
+				0.0607790 -0.0036664 0.0173210
+				0.0607790 0.0036665 0.0173210
+				-0.0939002 -0.6254837 0.0173210
+				-0.0903804 -0.6318538 0.0173210
+				0.0983240 -0.0429386 0.0173210
+				-0.0879770 -0.6387235 0.0173210
+				0.4330250 -0.0866051 0.0173210
+				-0.0867581 -0.6458986 0.0173210
+				-0.0867581 -0.6531765 0.0173210
+				-0.0879770 -0.6603516 0.0173210
+				-0.0903804 -0.6672211 0.0173210
+				-0.0939002 -0.6735912 0.0173210
+				-0.0867582 0.6458987 0.0173210
+				-0.0879770 0.6387235 0.0173210
+				0.0781236 0.0347755 0.0173210
+				-0.0903805 0.6318538 0.0173210
+				-0.0939003 0.6254838 0.0173210
+				-0.0984374 0.6197932 0.0173210
+				-0.1038633 0.6149426 0.0173210
+				-0.1100249 0.6110694 0.0173210
+				-0.1167482 0.6082830 0.0173210
+				-0.4330251 1.2990750 0.0173210
+				-0.4330250 0.7361425 0.0173210
+				-0.1238433 0.6924132 0.0173210
+				-0.1167482 0.6907921 0.0173210
+				-0.1100249 0.6880056 0.0173210
+				-0.1038633 0.6841325 0.0173210
+				-0.0984374 0.6792819 0.0173210
+				-0.0939003 0.6735913 0.0173210
+				-0.0903805 0.6672213 0.0173210
+				-0.0879770 0.6603516 0.0173210
+				0.0843611 0.0386307 0.0173210
+				-0.0867582 0.6531764 0.0173210
+				-0.4330251 1.2990750 -0.0259815
+				0.4330249 1.2990750 -0.0259815
+				-0.4330250 0.5629325 0.0259815
+				-0.4330250 0.7361425 0.0259815
+				-0.4330249 -1.2990750 -0.0259815
+				-0.4330250 -0.7361425 0.0259815
+				-0.4330250 -0.5629326 0.0259815
+				0.4330251 -1.2990750 -0.0259815
+				0.4330250 -0.0866051 0.0259815
+				0.4330250 0.0866051 0.0259815
+				-0.1238432 -0.6924132 0.0259815
+				-0.1167482 -0.6907922 0.0259815
+				-0.1100249 -0.6880056 0.0259815
+				-0.1038633 -0.6841324 0.0259815
+				-0.0984373 -0.6792820 0.0259815
+				-0.0939002 -0.6735912 0.0259815
+				-0.0903804 -0.6672211 0.0259815
+				-0.0879770 -0.6603516 0.0259815
+				-0.0867581 -0.6531765 0.0259815
+				-0.0867581 -0.6458986 0.0259815
+				-0.0879770 -0.6387235 0.0259815
+				-0.0903804 -0.6318538 0.0259815
+				-0.0939002 -0.6254837 0.0259815
+				-0.0984373 -0.6197931 0.0259815
+				-0.1038633 -0.6149426 0.0259815
+				-0.1100249 -0.6110693 0.0259815
+				-0.1167482 -0.6082829 0.0259815
+				-0.1238432 -0.6066617 0.0259815
+				-0.1238433 0.6066616 0.0259815
+				-0.1167482 0.6082830 0.0259815
+				-0.1100249 0.6110694 0.0259815
+				-0.1038633 0.6149426 0.0259815
+				-0.0984374 0.6197932 0.0259815
+				-0.0939003 0.6254838 0.0259815
+				-0.0903805 0.6318538 0.0259815
+				-0.0879770 0.6387235 0.0259815
+				-0.0867582 0.6458987 0.0259815
+				-0.0867582 0.6531764 0.0259815
+				-0.0879770 0.6603516 0.0259815
+				-0.0903805 0.6672213 0.0259815
+				-0.0939003 0.6735913 0.0259815
+				-0.0984374 0.6792819 0.0259815
+				-0.1038633 0.6841325 0.0259815
+				-0.1100249 0.6880056 0.0259815
+				-0.1167482 0.6907921 0.0259815
+				-0.1238433 0.6924132 0.0259815
+				0.0983240 0.0429387 0.0259815
+				0.0911595 0.0413779 0.0259815
+				0.0843611 0.0386307 0.0259815
+				0.0781236 0.0347755 0.0259815
+				0.0726259 0.0299236 0.0259815
+				0.0680258 0.0242133 0.0259815
+				0.0644551 0.0178089 0.0259815
+				0.0620163 0.0108938 0.0259815
+				0.0607790 0.0036665 0.0259815
+				0.0607790 -0.0036664 0.0259815
+				0.0620163 -0.0108937 0.0259815
+				0.0644551 -0.0178088 0.0259815
+				0.0680258 -0.0242132 0.0259815
+				0.0726259 -0.0299234 0.0259815
+				0.0781236 -0.0347754 0.0259815
+				0.0843611 -0.0386306 0.0259815
+				0.0911595 -0.0413778 0.0259815
+				0.0983240 -0.0429386 0.0259815
+				0.0680258 -0.0242132 0.0173210
+				-0.4330250 -0.5629326 0.0173210
+				-0.4330250 -0.5629326 0.0173210
+				0.0726259 -0.0299234 0.0173210
+				-0.4330250 -0.5629326 0.0173210
+				0.0781236 -0.0347754 0.0173210
+				0.0781236 -0.0347754 0.0173210
+				-0.1238432 -0.6066617 0.0173210
+				-0.1238432 -0.6066617 0.0173210
+				0.0843611 -0.0386306 0.0173210
+				0.0843611 -0.0386306 0.0173210
+				-0.1167482 -0.6082829 0.0173210
+				0.0644551 0.0178089 0.0173210
+				-0.4330250 0.5629325 0.0173210
+				-0.4330250 0.5629325 0.0173210
+				0.0680258 0.0242133 0.0173210
+				-0.4330250 0.5629325 0.0173210
+				0.0726259 0.0299236 0.0173210
+				0.0983240 0.0429387 0.0173210
+				0.4330249 1.2990750 0.0173210
+				0.4330251 -1.2990750 0.0173210
+				-0.1038633 -0.6841324 0.0173210
+				0.4330251 -1.2990750 0.0173210
+				-0.4330249 -1.2990750 0.0173210
+				-0.1238432 -0.6924132 0.0173210
+				0.4330251 -1.2990750 0.0173210
+				-0.1238432 -0.6924132 0.0173210
+				-0.1100249 -0.6880056 0.0173210
+				0.4330251 -1.2990750 0.0173210
+				-0.1167482 -0.6907922 0.0173210
+				-0.1167482 -0.6082829 0.0173210
+				0.0911595 -0.0413778 0.0173210
+				0.0911595 -0.0413778 0.0173210
+				-0.1100249 -0.6110693 0.0173210
+				0.0911595 -0.0413778 0.0173210
+				-0.1038633 -0.6149426 0.0173210
+				0.0644551 -0.0178088 0.0173210
+				-0.4330250 -0.5629326 0.0173210
+				-0.4330250 -0.5629326 0.0173210
+				0.0620163 -0.0108937 0.0173210
+				-0.4330250 -0.5629326 0.0173210
+				-0.4330250 0.5629325 0.0173210
+				0.0607790 -0.0036664 0.0173210
+				-0.4330250 0.5629325 0.0173210
+				0.0607790 -0.0036664 0.0173210
+				0.0620163 0.0108938 0.0173210
+				-0.4330250 0.5629325 0.0173210
+				0.0607790 0.0036665 0.0173210
+				0.0911595 -0.0413778 0.0173210
+				-0.0984373 -0.6197931 0.0173210
+				0.0911595 -0.0413778 0.0173210
+				-0.0939002 -0.6254837 0.0173210
+				0.0911595 -0.0413778 0.0173210
+				-0.0903804 -0.6318538 0.0173210
+				-0.0903804 -0.6318538 0.0173210
+				0.0983240 -0.0429386 0.0173210
+				0.0983240 -0.0429386 0.0173210
+				-0.0879770 -0.6387235 0.0173210
+				-0.0879770 -0.6387235 0.0173210
+				0.4330250 -0.0866051 0.0173210
+				0.4330251 -1.2990750 0.0173210
+				0.4330250 -0.0866051 0.0173210
+				-0.0867581 -0.6458986 0.0173210
+				0.4330251 -1.2990750 0.0173210
+				-0.0867581 -0.6458986 0.0173210
+				0.4330251 -1.2990750 0.0173210
+				-0.0867581 -0.6531765 0.0173210
+				0.4330251 -1.2990750 0.0173210
+				-0.0879770 -0.6603516 0.0173210
+				0.4330251 -1.2990750 0.0173210
+				-0.0903804 -0.6672211 0.0173210
+				0.4330251 -1.2990750 0.0173210
+				-0.0984373 -0.6792820 0.0173210
+				-0.0939002 -0.6735912 0.0173210
+				-0.0879770 0.6387235 0.0173210
+				0.0781236 0.0347755 0.0173210
+				0.0781236 0.0347755 0.0173210
+				-0.0903805 0.6318538 0.0173210
+				0.0781236 0.0347755 0.0173210
+				-0.0939003 0.6254838 0.0173210
+				0.0781236 0.0347755 0.0173210
+				-0.0984374 0.6197932 0.0173210
+				0.0781236 0.0347755 0.0173210
+				-0.1038633 0.6149426 0.0173210
+				0.0726259 0.0299236 0.0173210
+				0.0781236 0.0347755 0.0173210
+				-0.1100249 0.6110694 0.0173210
+				0.0726259 0.0299236 0.0173210
+				-0.1100249 0.6110694 0.0173210
+				0.0726259 0.0299236 0.0173210
+				-0.1238433 0.6066616 0.0173210
+				-0.1167482 0.6082830 0.0173210
+				0.4330249 1.2990750 0.0173210
+				0.4330249 1.2990750 0.0173210
+				-0.4330250 0.7361425 0.0173210
+				0.4330249 1.2990750 0.0173210
+				-0.1238433 0.6924132 0.0173210
+				0.4330249 1.2990750 0.0173210
+				-0.1167482 0.6907921 0.0173210
+				0.4330249 1.2990750 0.0173210
+				-0.1100249 0.6880056 0.0173210
+				0.4330249 1.2990750 0.0173210
+				-0.1038633 0.6841325 0.0173210
+				0.4330249 1.2990750 0.0173210
+				-0.0984374 0.6792819 0.0173210
+				0.4330249 1.2990750 0.0173210
+				-0.0939003 0.6735913 0.0173210
+				0.4330249 1.2990750 0.0173210
+				-0.0903805 0.6672213 0.0173210
+				0.4330249 1.2990750 0.0173210
+				0.0911595 0.0413779 0.0173210
+				0.4330249 1.2990750 0.0173210
+				-0.0879770 0.6603516 0.0173210
+				0.0843611 0.0386307 0.0173210
+				0.0781236 0.0347755 0.0173210
+				-0.0879770 0.6603516 0.0173210
+				0.0843611 0.0386307 0.0173210
+				0.0781236 0.0347755 0.0173210
+				-0.0879770 0.6603516 0.0173210
+				-0.0867582 0.6458987 0.0173210
+				0.0781236 0.0347755 0.0173210
+				-0.0867582 0.6531764 0.0173210
+				0.4330249 1.2990750 0.0173210
+				-0.4330251 1.2990750 0.0173210
+				0.4330249 1.2990750 0.0173210
+				-0.4330251 1.2990750 -0.0259815
+				-0.4330250 0.5629325 0.0173210
+				-0.4330251 1.2990750 0.0173210
+				-0.4330250 0.7361425 0.0173210
+				-0.4330251 1.2990750 -0.0259815
+				-0.4330250 0.7361425 0.0173210
+				-0.4330251 1.2990750 -0.0259815
+				-0.4330250 -0.7361425 0.0173210
+				-0.4330249 -1.2990750 0.0173210
+				-0.4330249 -1.2990750 -0.0259815
+				-0.4330250 -0.7361425 0.0173210
+				-0.4330250 -0.5629326 0.0173210
+				-0.4330250 -0.7361425 0.0173210
+				-0.4330250 -0.5629326 0.0259815
+				-0.4330250 -0.5629326 0.0173210
+				-0.4330250 -0.7361425 0.0173210
+				-0.4330249 -1.2990750 -0.0259815
+				-0.4330250 -0.5629326 0.0173210
+				-0.4330250 0.5629325 0.0173210
+				-0.4330249 -1.2990750 -0.0259815
+				-0.4330250 0.5629325 0.0173210
+				-0.4330250 0.7361425 0.0173210
+				-0.4330249 -1.2990750 -0.0259815
+				-0.4330250 0.5629325 0.0173210
+				-0.4330250 0.7361425 0.0173210
+				-0.4330250 0.7361425 0.0259815
+				0.4330251 -1.2990750 0.0173210
+				-0.4330249 -1.2990750 0.0173210
+				-0.4330249 -1.2990750 0.0173210
+				-0.4330249 -1.2990750 -0.0259815
+				0.4330251 -1.2990750 -0.0259815
+				0.4330250 0.0866051 0.0173210
+				0.4330249 1.2990750 -0.0259815
+				0.4330251 -1.2990750 -0.0259815
+				0.4330250 0.0866051 0.0173210
+				0.4330249 1.2990750 0.0173210
+				0.4330249 1.2990750 -0.0259815
+				0.4330251 -1.2990750 0.0173210
+				0.4330250 -0.0866051 0.0173210
+				0.4330251 -1.2990750 -0.0259815
+				0.4330250 0.0866051 0.0173210
+				0.4330250 -0.0866051 0.0173210
+				0.4330251 -1.2990750 -0.0259815
+				0.4330250 0.0866051 0.0173210
+				0.4330250 -0.0866051 0.0173210
+				0.4330250 0.0866051 0.0173210
+				0.4330250 -0.0866051 0.0259815
+				0.4330249 1.2990750 -0.0259815
+				-0.4330249 -1.2990750 -0.0259815
+				0.4330251 -1.2990750 -0.0259815
+				-0.4330251 1.2990750 -0.0259815
+				0.4330249 1.2990750 -0.0259815
+				-0.4330249 -1.2990750 -0.0259815
+				-0.1238432 -0.6924132 0.0173210
+				-0.4330250 -0.7361425 0.0259815
+				-0.4330250 -0.7361425 0.0173210
+				-0.1238432 -0.6924132 0.0173210
+				-0.4330250 -0.7361425 0.0259815
+				-0.1238432 -0.6924132 0.0173210
+				-0.1167482 -0.6907922 0.0173210
+				-0.1238432 -0.6924132 0.0259815
+				-0.1167482 -0.6907922 0.0173210
+				-0.1238432 -0.6924132 0.0259815
+				-0.1100249 -0.6880056 0.0173210
+				-0.1167482 -0.6907922 0.0173210
+				-0.1167482 -0.6907922 0.0259815
+				-0.1100249 -0.6880056 0.0173210
+				-0.1167482 -0.6907922 0.0259815
+				-0.1100249 -0.6880056 0.0173210
+				-0.1038633 -0.6841324 0.0173210
+				-0.1100249 -0.6880056 0.0259815
+				-0.1038633 -0.6841324 0.0173210
+				-0.1100249 -0.6880056 0.0259815
+				-0.1038633 -0.6841324 0.0173210
+				-0.0984373 -0.6792820 0.0173210
+				-0.1038633 -0.6841324 0.0259815
+				-0.0984373 -0.6792820 0.0173210
+				-0.1038633 -0.6841324 0.0259815
+				-0.0984373 -0.6792820 0.0173210
+				-0.0939002 -0.6735912 0.0173210
+				-0.0984373 -0.6792820 0.0259815
+				-0.0939002 -0.6735912 0.0173210
+				-0.0984373 -0.6792820 0.0259815
+				-0.0903804 -0.6672211 0.0173210
+				-0.0939002 -0.6735912 0.0173210
+				-0.0939002 -0.6735912 0.0259815
+				-0.0903804 -0.6672211 0.0173210
+				-0.0939002 -0.6735912 0.0259815
+				-0.0879770 -0.6603516 0.0173210
+				-0.0903804 -0.6672211 0.0173210
+				-0.0903804 -0.6672211 0.0259815
+				-0.0879770 -0.6603516 0.0173210
+				-0.0903804 -0.6672211 0.0259815
+				-0.0867581 -0.6531765 0.0173210
+				-0.0879770 -0.6603516 0.0173210
+				-0.0879770 -0.6603516 0.0259815
+				-0.0867581 -0.6531765 0.0173210
+				-0.0879770 -0.6603516 0.0259815
+				-0.0867581 -0.6458986 0.0173210
+				-0.0867581 -0.6531765 0.0173210
+				-0.0867581 -0.6531765 0.0259815
+				-0.0867581 -0.6458986 0.0173210
+				-0.0867581 -0.6531765 0.0259815
+				-0.0879770 -0.6387235 0.0173210
+				-0.0867581 -0.6458986 0.0173210
+				-0.0867581 -0.6458986 0.0259815
+				-0.0879770 -0.6387235 0.0173210
+				-0.0867581 -0.6458986 0.0259815
+				-0.0903804 -0.6318538 0.0173210
+				-0.0879770 -0.6387235 0.0173210
+				-0.0879770 -0.6387235 0.0259815
+				-0.0903804 -0.6318538 0.0173210
+				-0.0879770 -0.6387235 0.0259815
+				-0.0939002 -0.6254837 0.0173210
+				-0.0903804 -0.6318538 0.0173210
+				-0.0903804 -0.6318538 0.0259815
+				-0.0939002 -0.6254837 0.0173210
+				-0.0903804 -0.6318538 0.0259815
+				-0.0984373 -0.6197931 0.0173210
+				-0.0939002 -0.6254837 0.0173210
+				-0.0939002 -0.6254837 0.0259815
+				-0.0984373 -0.6197931 0.0173210
+				-0.0939002 -0.6254837 0.0259815
+				-0.1038633 -0.6149426 0.0173210
+				-0.0984373 -0.6197931 0.0173210
+				-0.0984373 -0.6197931 0.0259815
+				-0.1038633 -0.6149426 0.0173210
+				-0.0984373 -0.6197931 0.0259815
+				-0.1100249 -0.6110693 0.0173210
+				-0.1038633 -0.6149426 0.0173210
+				-0.1038633 -0.6149426 0.0259815
+				-0.1100249 -0.6110693 0.0173210
+				-0.1038633 -0.6149426 0.0259815
+				-0.1167482 -0.6082829 0.0173210
+				-0.1100249 -0.6110693 0.0173210
+				-0.1100249 -0.6110693 0.0259815
+				-0.1167482 -0.6082829 0.0173210
+				-0.1100249 -0.6110693 0.0259815
+				-0.1238432 -0.6066617 0.0173210
+				-0.1167482 -0.6082829 0.0173210
+				-0.1167482 -0.6082829 0.0259815
+				-0.1238432 -0.6066617 0.0173210
+				-0.1167482 -0.6082829 0.0259815
+				-0.4330250 -0.5629326 0.0173210
+				-0.4330250 -0.5629326 0.0259815
+				-0.1238432 -0.6066617 0.0259815
+				-0.4330250 -0.5629326 0.0173210
+				-0.1238432 -0.6066617 0.0173210
+				-0.1238432 -0.6066617 0.0259815
+				-0.4330250 -0.7361425 0.0259815
+				-0.4330250 -0.5629326 0.0259815
+				-0.1238432 -0.6066617 0.0259815
+				-0.4330250 -0.7361425 0.0259815
+				-0.1238432 -0.6924132 0.0259815
+				-0.1238432 -0.6066617 0.0259815
+				-0.1238432 -0.6924132 0.0259815
+				-0.1167482 -0.6907922 0.0259815
+				-0.1238432 -0.6066617 0.0259815
+				-0.1167482 -0.6907922 0.0259815
+				-0.0984373 -0.6197931 0.0259815
+				-0.1038633 -0.6149426 0.0259815
+				-0.1167482 -0.6907922 0.0259815
+				-0.1038633 -0.6149426 0.0259815
+				-0.1100249 -0.6110693 0.0259815
+				-0.1167482 -0.6907922 0.0259815
+				-0.1100249 -0.6110693 0.0259815
+				-0.1167482 -0.6082829 0.0259815
+				-0.1167482 -0.6907922 0.0259815
+				-0.1167482 -0.6082829 0.0259815
+				-0.1238432 -0.6066617 0.0259815
+				-0.1167482 -0.6907922 0.0259815
+				-0.1100249 -0.6880056 0.0259815
+				-0.0984373 -0.6197931 0.0259815
+				-0.1100249 -0.6880056 0.0259815
+				-0.1038633 -0.6841324 0.0259815
+				-0.0984373 -0.6197931 0.0259815
+				-0.1038633 -0.6841324 0.0259815
+				-0.0984373 -0.6792820 0.0259815
+				-0.0984373 -0.6197931 0.0259815
+				-0.0903804 -0.6672211 0.0259815
+				-0.0879770 -0.6387235 0.0259815
+				-0.0903804 -0.6318538 0.0259815
+				-0.0903804 -0.6672211 0.0259815
+				-0.0879770 -0.6603516 0.0259815
+				-0.0879770 -0.6387235 0.0259815
+				-0.0879770 -0.6603516 0.0259815
+				-0.0867581 -0.6531765 0.0259815
+				-0.0879770 -0.6387235 0.0259815
+				-0.0867581 -0.6531765 0.0259815
+				-0.0867581 -0.6458986 0.0259815
+				-0.0879770 -0.6387235 0.0259815
+				-0.0984373 -0.6792820 0.0259815
+				-0.0939002 -0.6735912 0.0259815
+				-0.0984373 -0.6197931 0.0259815
+				-0.0939002 -0.6735912 0.0259815
+				-0.0903804 -0.6672211 0.0259815
+				-0.0984373 -0.6197931 0.0259815
+				-0.0903804 -0.6672211 0.0259815
+				-0.0939002 -0.6254837 0.0259815
+				-0.0984373 -0.6197931 0.0259815
+				-0.0903804 -0.6672211 0.0259815
+				-0.0903804 -0.6318538 0.0259815
+				-0.0939002 -0.6254837 0.0259815
+				-0.1238433 0.6066616 0.0173210
+				-0.1167482 0.6082830 0.0173210
+				-0.1167482 0.6082830 0.0173210
+				-0.1238433 0.6066616 0.0259815
+				-0.1100249 0.6110694 0.0173210
+				-0.1167482 0.6082830 0.0173210
+				-0.1167482 0.6082830 0.0259815
+				-0.1100249 0.6110694 0.0173210
+				-0.1167482 0.6082830 0.0259815
+				-0.1038633 0.6149426 0.0173210
+				-0.1100249 0.6110694 0.0173210
+				-0.1100249 0.6110694 0.0259815
+				-0.1038633 0.6149426 0.0173210
+				-0.1100249 0.6110694 0.0259815
+				-0.0984374 0.6197932 0.0173210
+				-0.1038633 0.6149426 0.0173210
+				-0.1038633 0.6149426 0.0259815
+				-0.0984374 0.6197932 0.0173210
+				-0.1038633 0.6149426 0.0259815
+				-0.0939003 0.6254838 0.0173210
+				-0.0984374 0.6197932 0.0173210
+				-0.0984374 0.6197932 0.0259815
+				-0.0939003 0.6254838 0.0173210
+				-0.0984374 0.6197932 0.0259815
+				-0.0903805 0.6318538 0.0173210
+				-0.0939003 0.6254838 0.0173210
+				-0.0939003 0.6254838 0.0259815
+				-0.0903805 0.6318538 0.0173210
+				-0.0939003 0.6254838 0.0259815
+				-0.0879770 0.6387235 0.0173210
+				-0.0903805 0.6318538 0.0173210
+				-0.0903805 0.6318538 0.0259815
+				-0.0879770 0.6387235 0.0173210
+				-0.0903805 0.6318538 0.0259815
+				-0.0867582 0.6458987 0.0173210
+				-0.0879770 0.6387235 0.0173210
+				-0.0879770 0.6387235 0.0259815
+				-0.0867582 0.6458987 0.0173210
+				-0.0879770 0.6387235 0.0259815
+				-0.0867582 0.6458987 0.0173210
+				-0.0867582 0.6531764 0.0173210
+				-0.0867582 0.6458987 0.0259815
+				-0.0867582 0.6531764 0.0173210
+				-0.0867582 0.6458987 0.0259815
+				-0.0879770 0.6603516 0.0173210
+				-0.0867582 0.6531764 0.0173210
+				-0.0867582 0.6531764 0.0259815
+				-0.0879770 0.6603516 0.0173210
+				-0.0867582 0.6531764 0.0259815
+				-0.0903805 0.6672213 0.0173210
+				-0.0879770 0.6603516 0.0173210
+				-0.0879770 0.6603516 0.0259815
+				-0.0903805 0.6672213 0.0173210
+				-0.0879770 0.6603516 0.0259815
+				-0.0939003 0.6735913 0.0173210
+				-0.0903805 0.6672213 0.0173210
+				-0.0903805 0.6672213 0.0259815
+				-0.0939003 0.6735913 0.0173210
+				-0.0903805 0.6672213 0.0259815
+				-0.0984374 0.6792819 0.0173210
+				-0.0939003 0.6735913 0.0173210
+				-0.0939003 0.6735913 0.0259815
+				-0.0984374 0.6792819 0.0173210
+				-0.0939003 0.6735913 0.0259815
+				-0.1038633 0.6841325 0.0173210
+				-0.0984374 0.6792819 0.0173210
+				-0.0984374 0.6792819 0.0259815
+				-0.1038633 0.6841325 0.0173210
+				-0.0984374 0.6792819 0.0259815
+				-0.1100249 0.6880056 0.0173210
+				-0.1038633 0.6841325 0.0173210
+				-0.1038633 0.6841325 0.0259815
+				-0.1100249 0.6880056 0.0173210
+				-0.1038633 0.6841325 0.0259815
+				-0.1167482 0.6907921 0.0173210
+				-0.1100249 0.6880056 0.0173210
+				-0.1100249 0.6880056 0.0259815
+				-0.1167482 0.6907921 0.0173210
+				-0.1100249 0.6880056 0.0259815
+				-0.1238433 0.6924132 0.0173210
+				-0.1167482 0.6907921 0.0173210
+				-0.1167482 0.6907921 0.0259815
+				-0.1238433 0.6924132 0.0173210
+				-0.1167482 0.6907921 0.0259815
+				-0.4330250 0.7361425 0.0173210
+				-0.4330250 0.7361425 0.0259815
+				-0.1238433 0.6924132 0.0259815
+				-0.4330250 0.7361425 0.0173210
+				-0.1238433 0.6924132 0.0173210
+				-0.1238433 0.6924132 0.0259815
+				-0.1238433 0.6066616 0.0173210
+				-0.4330250 0.5629325 0.0259815
+				-0.1238433 0.6066616 0.0259815
+				-0.4330250 0.5629325 0.0173210
+				-0.1238433 0.6066616 0.0173210
+				-0.4330250 0.5629325 0.0259815
+				-0.4330250 0.5629325 0.0259815
+				-0.4330250 0.7361425 0.0259815
+				-0.1238433 0.6924132 0.0259815
+				-0.4330250 0.5629325 0.0259815
+				-0.1238433 0.6066616 0.0259815
+				-0.1238433 0.6924132 0.0259815
+				-0.1238433 0.6066616 0.0259815
+				-0.1167482 0.6082830 0.0259815
+				-0.1238433 0.6924132 0.0259815
+				-0.1167482 0.6082830 0.0259815
+				-0.1100249 0.6110694 0.0259815
+				-0.1238433 0.6924132 0.0259815
+				-0.0903805 0.6672213 0.0259815
+				-0.0939003 0.6735913 0.0259815
+				-0.0984374 0.6792819 0.0259815
+				-0.1100249 0.6110694 0.0259815
+				-0.0984374 0.6792819 0.0259815
+				-0.1038633 0.6841325 0.0259815
+				-0.1100249 0.6110694 0.0259815
+				-0.1038633 0.6841325 0.0259815
+				-0.1100249 0.6880056 0.0259815
+				-0.1100249 0.6110694 0.0259815
+				-0.1100249 0.6880056 0.0259815
+				-0.1167482 0.6907921 0.0259815
+				-0.1100249 0.6110694 0.0259815
+				-0.1167482 0.6907921 0.0259815
+				-0.1238433 0.6924132 0.0259815
+				-0.1100249 0.6110694 0.0259815
+				-0.1038633 0.6149426 0.0259815
+				-0.0984374 0.6792819 0.0259815
+				-0.1038633 0.6149426 0.0259815
+				-0.0984374 0.6197932 0.0259815
+				-0.0984374 0.6792819 0.0259815
+				-0.0984374 0.6197932 0.0259815
+				-0.0939003 0.6254838 0.0259815
+				-0.0984374 0.6792819 0.0259815
+				-0.0939003 0.6254838 0.0259815
+				-0.0903805 0.6318538 0.0259815
+				-0.0984374 0.6792819 0.0259815
+				-0.0903805 0.6318538 0.0259815
+				-0.0879770 0.6387235 0.0259815
+				-0.0984374 0.6792819 0.0259815
+				-0.0879770 0.6387235 0.0259815
+				-0.0867582 0.6458987 0.0259815
+				-0.0984374 0.6792819 0.0259815
+				-0.0867582 0.6458987 0.0259815
+				-0.0867582 0.6531764 0.0259815
+				-0.0984374 0.6792819 0.0259815
+				-0.0867582 0.6531764 0.0259815
+				-0.0879770 0.6603516 0.0259815
+				-0.0984374 0.6792819 0.0259815
+				-0.0879770 0.6603516 0.0259815
+				-0.0903805 0.6672213 0.0259815
+				-0.0984374 0.6792819 0.0259815
+				0.0983240 0.0429387 0.0173210
+				0.0911595 0.0413779 0.0173210
+				0.0911595 0.0413779 0.0173210
+				0.0983240 0.0429387 0.0259815
+				0.0911595 0.0413779 0.0173210
+				0.0843611 0.0386307 0.0173210
+				0.0911595 0.0413779 0.0259815
+				0.0843611 0.0386307 0.0173210
+				0.0911595 0.0413779 0.0259815
+				0.0781236 0.0347755 0.0173210
+				0.0843611 0.0386307 0.0173210
+				0.0843611 0.0386307 0.0259815
+				0.0781236 0.0347755 0.0173210
+				0.0843611 0.0386307 0.0259815
+				0.0726259 0.0299236 0.0173210
+				0.0781236 0.0347755 0.0173210
+				0.0781236 0.0347755 0.0259815
+				0.0726259 0.0299236 0.0173210
+				0.0781236 0.0347755 0.0259815
+				0.0680258 0.0242133 0.0173210
+				0.0726259 0.0299236 0.0173210
+				0.0726259 0.0299236 0.0259815
+				0.0680258 0.0242133 0.0173210
+				0.0726259 0.0299236 0.0259815
+				0.0644551 0.0178089 0.0173210
+				0.0680258 0.0242133 0.0173210
+				0.0680258 0.0242133 0.0259815
+				0.0644551 0.0178089 0.0173210
+				0.0680258 0.0242133 0.0259815
+				0.0620163 0.0108938 0.0173210
+				0.0644551 0.0178089 0.0173210
+				0.0644551 0.0178089 0.0259815
+				0.0620163 0.0108938 0.0173210
+				0.0644551 0.0178089 0.0259815
+				0.0620163 0.0108938 0.0173210
+				0.0607790 0.0036665 0.0173210
+				0.0620163 0.0108938 0.0259815
+				0.0607790 0.0036665 0.0173210
+				0.0620163 0.0108938 0.0259815
+				0.0607790 -0.0036664 0.0173210
+				0.0607790 0.0036665 0.0173210
+				0.0607790 0.0036665 0.0259815
+				0.0607790 -0.0036664 0.0173210
+				0.0607790 0.0036665 0.0259815
+				0.0620163 -0.0108937 0.0173210
+				0.0607790 -0.0036664 0.0173210
+				0.0607790 -0.0036664 0.0259815
+				0.0620163 -0.0108937 0.0173210
+				0.0607790 -0.0036664 0.0259815
+				0.0644551 -0.0178088 0.0173210
+				0.0620163 -0.0108937 0.0173210
+				0.0620163 -0.0108937 0.0259815
+				0.0644551 -0.0178088 0.0173210
+				0.0620163 -0.0108937 0.0259815
+				0.0680258 -0.0242132 0.0173210
+				0.0644551 -0.0178088 0.0173210
+				0.0644551 -0.0178088 0.0259815
+				0.0680258 -0.0242132 0.0173210
+				0.0644551 -0.0178088 0.0259815
+				0.0680258 -0.0242132 0.0173210
+				0.0726259 -0.0299234 0.0173210
+				0.0680258 -0.0242132 0.0259815
+				0.0726259 -0.0299234 0.0173210
+				0.0680258 -0.0242132 0.0259815
+				0.0726259 -0.0299234 0.0173210
+				0.0781236 -0.0347754 0.0173210
+				0.0726259 -0.0299234 0.0259815
+				0.0781236 -0.0347754 0.0173210
+				0.0726259 -0.0299234 0.0259815
+				0.0781236 -0.0347754 0.0173210
+				0.0843611 -0.0386306 0.0173210
+				0.0781236 -0.0347754 0.0259815
+				0.0843611 -0.0386306 0.0173210
+				0.0781236 -0.0347754 0.0259815
+				0.0843611 -0.0386306 0.0173210
+				0.0911595 -0.0413778 0.0173210
+				0.0843611 -0.0386306 0.0259815
+				0.0911595 -0.0413778 0.0173210
+				0.0843611 -0.0386306 0.0259815
+				0.0911595 -0.0413778 0.0173210
+				0.0983240 -0.0429386 0.0173210
+				0.0911595 -0.0413778 0.0259815
+				0.0983240 -0.0429386 0.0173210
+				0.0911595 -0.0413778 0.0259815
+				0.4330250 -0.0866051 0.0173210
+				0.4330250 -0.0866051 0.0259815
+				0.0983240 -0.0429386 0.0259815
+				0.0983240 -0.0429386 0.0173210
+				0.4330250 -0.0866051 0.0173210
+				0.0983240 -0.0429386 0.0259815
+				0.0983240 0.0429387 0.0173210
+				0.4330250 0.0866051 0.0259815
+				0.0983240 0.0429387 0.0259815
+				0.0983240 0.0429387 0.0173210
+				0.4330250 0.0866051 0.0173210
+				0.4330250 0.0866051 0.0259815
+				0.0983240 0.0429387 0.0259815
+				0.0781236 -0.0347754 0.0259815
+				0.0843611 -0.0386306 0.0259815
+				0.0983240 0.0429387 0.0259815
+				0.0726259 -0.0299234 0.0259815
+				0.0781236 -0.0347754 0.0259815
+				0.4330250 -0.0866051 0.0259815
+				0.4330250 0.0866051 0.0259815
+				0.0983240 -0.0429386 0.0259815
+				0.4330250 0.0866051 0.0259815
+				0.0983240 0.0429387 0.0259815
+				0.0983240 -0.0429386 0.0259815
+				0.0983240 0.0429387 0.0259815
+				0.0911595 -0.0413778 0.0259815
+				0.0983240 -0.0429386 0.0259815
+				0.0983240 0.0429387 0.0259815
+				0.0843611 -0.0386306 0.0259815
+				0.0911595 -0.0413778 0.0259815
+				0.0983240 0.0429387 0.0259815
+				0.0607790 0.0036665 0.0259815
+				0.0607790 -0.0036664 0.0259815
+				0.0983240 0.0429387 0.0259815
+				0.0607790 -0.0036664 0.0259815
+				0.0620163 -0.0108937 0.0259815
+				0.0983240 0.0429387 0.0259815
+				0.0911595 0.0413779 0.0259815
+				0.0843611 0.0386307 0.0259815
+				0.0983240 0.0429387 0.0259815
+				0.0680258 0.0242133 0.0259815
+				0.0644551 0.0178089 0.0259815
+				0.0983240 0.0429387 0.0259815
+				0.0644551 0.0178089 0.0259815
+				0.0620163 0.0108938 0.0259815
+				0.0983240 0.0429387 0.0259815
+				0.0620163 0.0108938 0.0259815
+				0.0607790 0.0036665 0.0259815
+				0.0983240 0.0429387 0.0259815
+				0.0843611 0.0386307 0.0259815
+				0.0781236 0.0347755 0.0259815
+				0.0983240 0.0429387 0.0259815
+				0.0781236 0.0347755 0.0259815
+				0.0726259 0.0299236 0.0259815
+				0.0983240 0.0429387 0.0259815
+				0.0726259 0.0299236 0.0259815
+				0.0680258 0.0242133 0.0259815
+				0.0983240 0.0429387 0.0259815
+				0.0620163 -0.0108937 0.0259815
+				0.0644551 -0.0178088 0.0259815
+				0.0983240 0.0429387 0.0259815
+				0.0644551 -0.0178088 0.0259815
+				0.0680258 -0.0242132 0.0259815
+				0.0983240 0.0429387 0.0259815
+				0.0680258 -0.0242132 0.0259815
+				0.0726259 -0.0299234 0.0259815
+			}
+		}
+	}
+}

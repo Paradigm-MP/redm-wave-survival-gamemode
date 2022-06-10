@@ -1,0 +1,83 @@
+{
+    "name": "Fort Mercer",
+    "image": "images/valentine.jpg",
+    "enabled": false,
+    "difficulties":
+    {
+        "easy": {"recommendedPlayers": 2},
+        "medium": {"recommendedPlayers": 4},
+        "hard": {"recommendedPlayers": 8},
+        "gunslinger": {"recommendedPlayers": 16}
+    },
+    "gameArea":
+    {
+        "center": {"x": -4200.01, "y": -3437.1, "z": 37.0},
+        "radius": 160000000
+    },
+    "time":
+    {
+        "hour": 12, 
+        "minute": 0,
+        "timestepEnabled": false
+    },
+    "weather": "extrasunny",
+    "defaultWeapons": 
+    [
+        {
+            "type": 16,
+            "ammo": 1
+        },
+        {
+            "type": 26,
+            "ammo": 150
+        }
+    ],
+    "playerSpawnPoints":
+    [
+        {
+            "pos": {"x": -4200.01, "y": -3437.1, "z": 37.0}
+        }
+    ],
+    "enemySpawnPoints":
+    [   
+        {"pos": {"x": -161.80149841309, "y": 820.40246582031, "z": 133.66801452637},"heading": 159.8143157959}
+    ],
+    "weaponSpawnPoints":
+    [
+        {"pos": {"x": -324.05047607422, "y": 798.19897460938, "z": 117.881690979}}
+    ],
+    "ammoSpawnPoints":
+    [
+
+    ],
+    "mysteryboxSpawnPoints":
+    [
+
+    ],
+    "barrierSpawnPoints":
+    [
+
+    ],
+    "perkSpawnPoints":
+    [
+
+    ],
+    "pack_a_punchSpawnPoint":
+    {
+
+    },
+    "invisibleObjects":
+    {
+    },
+    "objectSpawnPoints":
+    [
+    ],
+    "doors":
+    [
+
+    ],
+    "particleEffects":
+    [
+
+    ]
+}

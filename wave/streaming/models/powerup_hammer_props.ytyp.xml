@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CMapTypes>
+  <extensions/>
+  <archetypes>
+
+  <Item type="CBaseArchetypeDef"><lodDist value="500.0"/><flags value="32"/><specialAttribute value="0"/><bbMin x="0.0" y="0.0" z="0.0"/><bbMax x="0.0" y="0.0" z="0.0"/><bsCentre x="0.0" y="0.0" z="0.0"/><bsRadius value="0.0"/><hdTextureDist value="5.0"/><name>powerup_hammer</name><textureDictionary>powerup_hammer</textureDictionary><clipDictionary/><drawableDictionary/><physicsDictionary>powerup_hammer</physicsDictionary><assetType>ASSET_TYPE_DRAWABLE</assetType><assetName>powerup_hammer</assetName><extensions/></Item></archetypes>
+  <name>powerup_hammer_props</name>
+  <dependencies/>
+  <compositeEntityTypes/>
+</CMapTypes>

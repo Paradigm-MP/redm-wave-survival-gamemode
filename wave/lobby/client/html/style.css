@@ -1,0 +1,1034 @@
+@font-face 
+{
+    font-family: "Agency Bold";
+    src: url("../../../ui/fonts/Kirsty.ttf");
+}
+
+@font-face 
+{
+    font-family: "Agency FBold";
+    src: url("../../../ui/fonts/KirstyB.ttf");
+}
+
+@font-face 
+{
+    font-family: "Main Titles";
+    src: url("../../../ui/fonts/MainTitles.ttf");
+}
+
+*
+{
+    user-select: none;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+    outline: none;
+    font-family: "Agency Bold", 'Courier New', Courier, monospace;
+}
+
+body
+{
+    background: rgba(0, 0, 0, 0.75);
+}
+
+div.content-area
+{
+    position: fixed;
+    width: calc(100% - 20px);
+    height: calc(100% - 20px);
+    margin: 10px;
+}
+
+div.title-bar
+{
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    width: fit-content;
+    transform: translateX(-50%);
+    z-index: 9;
+}
+
+div.title-entry
+{
+    position: relative;
+    font-family: "Main Titles", 'Courier New', Courier, monospace;
+    display: inline-block;
+    font-weight: bold;
+    color: rgba(150, 150, 150, 1);
+    font-size: 45px;
+    letter-spacing: 4px; /* udnerline not connecting is because of this */
+    padding: 20px;
+    border: none;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+div.title-entry.selected, div.title-entry:hover
+{
+    color: white;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+div.underline
+{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    height: 3px;
+    width: 0;
+    background: white;
+    transition: 0.3s cubic-bezier(.69,0,.25,1) all;
+}
+
+div.title-entry.selected div.underline
+{
+    width: 100%;
+}
+
+div.section-content-area
+{
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    height: calc(100% - 100px);
+}
+
+div.section-container
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+}
+
+
+div.content-map
+{
+    display: inline-block;
+    position: relative;
+    height: 100%;
+    width: 70%;
+}
+
+div.content-players
+{
+    display: inline-block;
+    position: relative;
+    height: 100%;
+    width: calc(30% - 1px);
+    float: right;
+    border-left: 1px solid gray;
+}
+
+div.content-players div.players-container
+{
+    margin: 10px;
+    padding: 5px;
+    max-height: 85%;
+    overflow-y: auto;
+}
+
+div.content-players div.players-container div.players-entry
+{
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    font-family: "Agency FBold", 'Courier New', Courier, monospace;
+    margin-bottom: 5px;
+    padding: 8px;
+    padding-bottom: 4px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+div.content-players div.players-container div.players-entry:hover
+{
+    background: rgba(255, 255, 255, 0.1);
+}
+
+div.content-players div.players-container div.players-entry div.circle
+{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 2px;
+    border: 2px solid white;
+    border-radius: 500px;
+}
+
+div.content-players div.players-container div.players-entry div.icon
+{
+    display: inline-block;
+    background: gray;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    background-image: url("images/question.png");
+    background-size: 100% 100%;
+}
+
+div.content-players div.players-container div.players-entry div.name
+{
+    display: inline-block;
+    max-width: 70%;
+    margin-left: 4px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+div.content-players div.players-container div.players-entry div.level
+{
+    display: inline-block;
+    text-align: center;
+    display: inline-block;
+    float: right;
+    font-size: 16px;
+}
+
+div.content-players div.players-container div.players-entry div.level div.val
+{
+    display: inline-block;
+    font-size: 36px;
+}
+
+div.map-container, div.map-gameinprogress-container
+{
+    width: 100%;
+    height: 100%;
+}
+
+div.content-title
+{
+    display: inline-block;
+    font-family: "Agency Bold", 'Courier New', Courier, monospace;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 4px;
+    margin: 10px;
+    width: 50%;
+    text-decoration: underline;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
+}
+
+div.map-image
+{
+    position: absolute;
+    display: inline-block;
+    bottom: 0;
+    left: 0;
+    margin: 10px;
+    padding: 5px;
+    height: 40%;
+    width: 50%;
+    border: 2px solid lightgray;
+    background: gray;
+    background-image: url("");
+    background-size: 100% 100%;
+    background-position: 50% 50%;
+    transition: background-image 0.2s ease-in-out;
+}
+
+div.map-image div.title-container
+{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 8px;
+    font-size: 26px;
+    max-width: 50%;
+    background: rgba(0, 0, 0, 0.5);
+    text-align: right;
+    font-weight: bold;
+    font-family: "Agency FBold", 'Courier New', Courier, monospace;
+}
+
+div.map-image div.title, div.map-image div.difficulty
+{
+    font-size: 26px;
+    text-align: right;
+    font-weight: bold;
+    font-family: "Agency FBold", 'Courier New', Courier, monospace;
+}
+
+div.map-image div.difficulty
+{
+    font-weight: normal;
+}
+
+div.map-selection-container
+{
+    position: relative;
+    margin-top: 50px;
+    margin-right: 10px;
+    display: inline-block;
+    float: right;
+    width: 45%;
+    height: 40%;
+}
+
+div.map-selection-container>div.title
+{
+    position: absolute;
+    top: -30px;
+    left: 0;
+    margin-left: 4px;
+    font-family: "Agency Bold", 'Courier New', Courier, monospace;
+    font-size: 22px;
+    letter-spacing: 2px;
+    text-decoration: underline;
+}
+
+div.button
+{
+    margin: 10px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    border: 2px solid lightgray;
+    text-align: center;
+    font-family: "Agency Bold", 'Courier New', Courier, monospace;
+}
+
+div.button:hover
+{
+    background: rgba(255, 255, 255, 0.1);
+}
+
+div.button:active
+{
+    background: rgba(255, 255, 255, 0.2);
+}
+
+div.lobby-button
+{
+    font-size: 30px;
+    padding: 16px;
+}
+
+div.button.map-join
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 30%;
+}
+
+div.button.map-ready
+{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 30%;
+}
+
+div.button.map-ready:not(.selected):hover, div.button.map-join:not(.selected):hover
+{
+    color: #1DD614;
+}
+
+div.button.map-join:hover
+{
+    color: #E51A1A;
+}
+
+div.button.map-join.switch:hover
+{
+    color: #1F85DE;
+}
+
+div.button.map-ready.selected
+{
+    background: rgb(30, 214, 20, 1);
+    animation: 2s ease-in-out ready-button infinite;
+}
+
+@keyframes ready-button
+{
+    0% {background: rgb(26, 163, 19, 1);}
+    50% {background: rgb(26, 163, 19, 0.8);}
+    100% {background: rgb(26, 163, 19, 1);}
+}
+
+div.hr
+{
+    margin-left: 5%;
+    width: 90%;
+    height: 0px;
+    border-bottom: 2px solid gray;
+}
+
+div.button
+{
+    margin: 10px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    border: 2px solid lightgray;
+    text-align: center;
+    font-family: "Agency Bold", 'Courier New', Courier, monospace;
+}
+
+div.button:hover
+{
+    background: rgba(255, 255, 255, 0.1);
+}
+
+div.button.fixed
+{
+    font-size: 30px;
+    position: fixed;
+    bottom: 0;
+    width: fit-content;
+    height: fit-content;
+    right: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+    z-index: 5;
+}
+
+div.button.map-join
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 30%;
+}
+
+div.button.map-ready
+{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 30%;
+}
+
+div.button.map-ready:not(.selected):hover, div.button.map-join:not(.selected):hover
+{
+    color: #1DD614;
+}
+
+div.button.map-join:hover
+{
+    color: #E51A1A;
+}
+
+div.button.map-ready.selected
+{
+    background: rgb(30, 214, 20, 1);
+    animation: 2s ease-in-out ready-button infinite;
+}
+
+@keyframes ready-button
+{
+    0% {background: rgb(26, 163, 19, 1);}
+    50% {background: rgb(26, 163, 19, 0.8);}
+    100% {background: rgb(26, 163, 19, 1);}
+}
+
+div.hr
+{
+    margin-left: 5%;
+    width: 90%;
+    height: 0px;
+    border-bottom: 2px solid gray;
+}
+
+div.map-difficulty
+{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-top: 10px;
+    margin-right: 10px;
+    display: inline-block;
+    width: 45%;
+    height: 40%;
+}
+
+div.map-difficulty>div.title
+{
+    top: 0;
+    left: 0;
+    margin-left: 8px;
+    margin-bottom: 10px;
+    font-family: "Agency Bold", 'Courier New', Courier, monospace;
+    font-size: 22px;
+    letter-spacing: 2px;
+    text-decoration: underline;
+}
+
+div.map-difficulty div.selection-container
+{
+    position: relative;
+    height: 30%;
+    margin: 5px;
+}
+
+div.map-entries
+{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+div.map-entry
+{
+    position: relative;
+    margin: 5px;
+    padding: 5px;
+    background: rgba(0, 0, 0, 0.2);
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 1);
+    border-left: 0px solid white;
+    transition: 0.2s ease-in-out border;
+    background-image: linear-gradient(to right, rgba(0,0,0,0.15), transparent);
+}
+
+div.map-entry.selected
+{
+    border-left: 4px solid white;
+}
+
+div.map-entry>div.title
+{
+    display: inline-block;
+    font-size: 28px;
+    font-family: "Agency Bold", 'Courier New', Courier, monospace;
+}
+
+div.map-entry>div.bg
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    transition: width 0.5s cubic-bezier(.69,0,.25,1), background-image 0.5s cubic-bezier(.69,0,.25,1), background-color 0.5s cubic-bezier(.69,0,.25,1);
+    z-index: -1;
+}
+
+div.map-entry:hover
+{
+    background: rgba(0, 0, 0, 0.1);
+}
+
+div.map-entry.selected div.bg
+{
+    width: 100%;
+}
+
+div.map-entry div.players
+{
+    margin-top: 2px;
+    font-size: 20px;
+    font-family: "Agency FBold", 'Courier New', Courier, monospace;
+}
+
+div.players-queued-count
+{
+    display: inline-block;
+    font-weight: bold;
+}
+
+div.players-ready-count
+{
+    display: inline-block;
+    color: lightgray;
+}
+
+div.players-ready-count div.count
+{
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+}
+
+div.players div.white
+{
+    display: inline-block;
+    color: lightgray;
+}
+
+div.player-dots
+{
+    display: inline-block;
+    margin-top: 5px;
+}
+
+div.player-dot
+{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: -11px;
+    background: #E51A1A;
+    border: 1px solid lightgray;
+    border-radius: 500px;
+}
+
+div.player-dot.ready
+{
+    background: rgb(26, 163, 19);
+}
+
+div.map-details
+{
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 0;
+    border-left: 2px solid white;
+    overflow: hidden;
+    width: 45%;
+    height: 35%;
+    background: linear-gradient(to right, rgba(0,0,0,0.25), transparent 100%);
+}
+
+div.map-details div.title, div.map-details div.difficulty
+{
+    font-family: "Agency FBold", 'Courier New', Courier, monospace;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+div.map-details div.difficulty
+{
+    font-weight: normal;
+}
+
+div.map-details div.players-title
+{
+    font-family: "Agency FBold", 'Courier New', Courier, monospace;
+    font-size: 26px;
+    margin-top: 5%;
+    text-decoration: underline;
+}
+
+div.map-details div.map-players
+{
+    margin: 5px;
+    width: 75%;
+    overflow: hidden;
+}
+
+div.map-details div.map-players div.player-entry
+{
+    margin-right: -15px;
+    display: inline-block;
+    border-radius: 500px;
+    border: 2px solid red;
+    width: 25px;
+    height: 25px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    background: gray;
+    background-image: url("images/question.png");
+    background-size: 100% 100%;
+}
+
+div.map-details div.map-players div.player-entry.ready
+{
+    border-color: rgba(0, 255, 0, 1);
+}
+
+div.map-gameinprogress-container
+{
+    display: none;
+}
+
+
+
+div.coming-soon
+{
+    font-family: "Agency Bold", 'Courier New', Courier, monospace;
+    font-size: 80px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.easy
+{
+    color: #1DD614;
+}
+
+.medium
+{
+    color: rgb(235, 220, 19);
+}
+
+.hard
+{
+    color: #EE8117;
+}
+
+.gunslinger
+{
+    color: rgb(223, 9, 9);
+}
+
+div.section-container-topfade
+{
+    position: absolute;
+    top: -7%;
+    height: 7%;
+    width: 100%;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.2));
+}
+
+
+::-webkit-scrollbar 
+{
+    width: 16px;
+    height: 18px;
+    -webkit-transition: all 0.2s linear;
+}
+::-webkit-scrollbar-thumb 
+{
+    height: 6px;
+    border: 4px solid transparent;
+    background-clip: padding-box;
+    background-color: lightgray;
+    transition: background-color 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+}
+::-webkit-scrollbar-thumb:hover 
+{
+    height: 6px;
+    border: 4px solid transparent;
+    background-clip: padding-box;
+    background-color: white;
+}
+::-webkit-scrollbar-button 
+{
+    width: 0;
+    height: 0;
+    display: none;
+}
+::-webkit-scrollbar-corner 
+{
+    background-color: transparent;
+}
+
+
+div.countdown-container
+{
+    position: absolute;
+    width: 76px;
+    height: 76px;
+    top: 0;
+    right: 0;
+    margin: 10px;
+    margin-right: 10%;
+    font-family: "Agency Bold", 'Courier New', Courier, monospace;
+}
+
+div.countdown-container div.countdown
+{
+    font-size: 42px;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    padding-top: 100%;
+    -webkit-transform: translateY(-50%); /* child now centers itself relative to the midline based on own contents */
+    transform: translateY(-50%);    
+}
+
+div.countdown-container svg.progress
+{
+    position: absolute;
+    width: 76px;
+    height: 76px;
+    transform: rotate(-90deg);
+}
+
+div.countdown-container svg.progress circle
+{
+    cx: 38px;
+    cy: 38px;
+    r: 32px;
+    fill: none;
+    stroke-width: 4px;
+}
+
+div.countdown-container svg.progress circle.background
+{
+    stroke: rgba(0, 0, 0, 0.5);
+}
+
+div.countdown-container svg.progress circle.fill
+{
+    stroke: white;
+    stroke-dasharray: 201; /* --- 2 * pi * r --- */
+    stroke-dashoffset: 0; /* --- dasharray * (100-percent) --- */
+    transition: 1s linear all;
+}
+
+div.countdown-container svg.progress.blurred
+{
+    filter: blur(2px);
+}
+
+div.countdown-container svg.progress.blurred circle
+{
+    fill: rgba(0, 0, 0, 0.5);
+    stroke: rgba(0, 0, 0, 0.25);
+}
+
+div.map-gameinprogress-container div.content-container
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 80%;
+}
+
+div.map-gameinprogress-container div.content-container>div.title
+{
+    text-align: center;
+    font-family: "Agency Bold", 'Courier New', Courier, monospace;
+    font-size: 70px;
+    margin-bottom: 10px;
+}
+
+div.map-gameinprogress-container div.map-image
+{
+    position: relative;
+    left: 50%;
+    width: 70%;
+    margin: 0;
+    height: 40vh;
+    transform: translateX(-50%);
+}
+
+div.map-gameinprogress-container div.clicktojoin
+{
+    margin-top: 3vh;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: fit-content;
+    font-size: 30px;
+}
+
+div.map-gameinprogress-container div.clicktojoin:hover
+{
+    color: #1DD614;
+}
+
+div.shop-title
+{
+    width: 100%;
+    height: 20%;
+    font-family: "Agency Bold", 'Courier New', Courier, monospace;
+    display: flex;
+    vertical-align: middle;
+}
+
+div.shop-title div.title
+{
+    padding: 30px;
+    text-align: center;
+    width: 100%;
+    height: fit-content;
+    font-weight: bold;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+div.shop-title div.money
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 30px;
+    font-size: 30px;
+}
+
+div.shop-container
+{
+    position: relative;
+    width: 100%;
+    height: 80%;
+    overflow-y: auto;
+    border-top: 2px solid gray;
+    text-align: center;
+}
+
+div.shop-container div.shop-entry
+{
+    position: relative;
+    width: 15vw;
+    height: 20vw;
+    margin: 12px;
+    text-align: center;
+    font-family: "Agency Bold", 'Courier New', Courier, monospace;
+    font-size: 30px;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    overflow: hidden;
+}
+
+div.shop-container div.shop-entry:hover
+{
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+div.shop-container div.shop-entry *
+{
+    display: inline-block;
+}
+
+div.shop-container div.shop-entry div.title
+{
+    text-transform: none;
+    width: 60%;
+}
+
+div.shop-container div.shop-entry div.cost
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+}
+
+div.shop-container div.shop-entry div.buy-equip
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    transform: translateX(-2px);
+    border-bottom: none;
+}
+
+div.shop-container div.shop-entry img.image
+{
+    width: 100%;
+    height: auto;
+}
+
+div.shop-container div.shop-entry:hover
+{
+    border: 2px solid rgba(255, 255, 255, 0.75);
+}
+
+div.shop-container div.shop-entry div.buy-equip:hover
+{
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 2px solid rgba(255, 255, 255, 0.75);
+}
+
+div.shop-container div.shop-entry div.ownership-indicator
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+	height: 0;
+	border-top: 3vw solid rgba(255, 255, 255, 0.8);
+    border-left: 3vw solid transparent;
+    display: none;
+}
+
+div.shop-container div.shop-entry.purchased div.ownership-indicator
+{
+    display: block;
+    border-top-color: rgba(0, 255, 0, 0.5);
+}
+
+div.shop-container div.shop-entry.equipped div.ownership-indicator
+{
+    display: block;
+    border-top-color: rgba(0, 255, 255, 0.5);
+}
+
+div.shop-container div.shop-entry.cant-afford, div.shop-container div.shop-entry.disabled
+{
+    opacity: 0.5;
+}
+
+div.shop-container div.shop-entry.cant-afford *
+{
+    color: red;
+}
+
+div.shop-container div.shop-entry.cant-afford img.image
+{
+    filter: grayscale(1);
+}
+
+div.shop-container div.shop-entry.cant-afford div.buy-equip:hover
+{
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+div.shop-container div.shop-entry.cant-afford:hover
+{
+    border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+div.shop-container div.shop-entry.purchased div.buy-equip
+{
+    background-color: rgba(0, 255, 0, 0.2);
+}
+
+div.shop-container div.shop-entry.purchased div.buy-equip:hover
+{
+    background-color: rgba(0, 255, 0, 0.4);
+}
+
+div.shop-container div.shop-entry.equipped div.buy-equip
+{
+    background-color: rgba(0, 255, 255, 0.2);
+}
+
+div.shop-container div.shop-entry.equipped div.buy-equip:hover
+{
+    background-color: rgba(0, 255, 255, 0.4);
+}
+
+div.shop-container div.shop-entry div.buy-equip:hover, div.shop-container div.shop-entry.cant-afford div.buy-equip:hover
+{
+    border-bottom: none;
+}
+
+div.update-container
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+div.update-container iframe
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+div.title-entry div.new
+{
+    font-family: "Agency Bold", 'Courier New', Courier, monospace;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    right: 0;
+    letter-spacing: 2px;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: red;
+    border-radius: 4px;
+    padding: 6px;
+}

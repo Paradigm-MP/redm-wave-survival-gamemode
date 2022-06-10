@@ -1,0 +1,30 @@
+Version 165 32
+{
+	Shaders
+	{
+		default.sps
+		{
+			DiffuseSampler mysterybox_lid\crate_lid.otx
+			HardAlphaBlend 1.0000000
+			UseTessellation 0.0000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		High 9998.0
+		{
+			mysterybox_lid\lid.mesh 0
+		}
+		Med 9998.0
+		Low 9998.0
+		Vlow 9998.0
+		AABBMin 0.0000000 -1.2640001 -0.0039197
+		AABBMax 0.8660500 1.3341500 0.0480433
+		Radius 1.36959
+		Center 0.4330249 0.0350749 0.0220618
+	}
+	Light null
+	Bound mysterybox_lid\mysterybox_lid.bound
+	Joints null
+}
